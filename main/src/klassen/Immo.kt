@@ -1,4 +1,4 @@
-package Klassen
+package klassen
 
 open class Immo {
 }

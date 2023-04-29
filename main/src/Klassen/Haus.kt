@@ -1,4 +1,0 @@
-package Klassen
-
-class Haus {
-}
