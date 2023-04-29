@@ -1,4 +1,0 @@
-package klassen
-
-class Einfamilie {
-}

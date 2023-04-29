@@ -1,0 +1,4 @@
+package klassen
+
+class Oeko {
+}
