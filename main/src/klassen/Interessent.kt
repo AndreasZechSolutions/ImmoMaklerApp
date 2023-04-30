@@ -1,4 +1,4 @@
 package klassen
 
-class Interessent {
+class Interessent () {
 }
