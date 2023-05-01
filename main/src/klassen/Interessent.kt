@@ -1,4 +1,4 @@
 package klassen
 
-class Interessent () {
+class Interessent(private var bezeichnung: String = "Interessent", private var Map<Anrede>, ): Konto {
 }

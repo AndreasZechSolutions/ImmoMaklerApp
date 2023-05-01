@@ -1,14 +1,8 @@
 package klassen
 
-open class Konto (kontoid: Int, email: String, passwort: String){
-
-    private var id: Int = 0
-    private var mail: String = ""
-    private var pass: String = ""
-
-    init  {
-        this.id = kontoid
-        this.mail = email
-        this.pass = passwort
-    }
+open class Konto (
+    private var kontoId: Int,
+    private kontoTyp: Map<KontoTyp>,
+    private var email: String,
+    private var passwort: String) {
 }
