@@ -1,8 +1,8 @@
 package klassen
 
-open class Konto (
+open class Konto(
     private var kontoId: Int,
-    private kontoTyp: Map<KontoTyp>,
+    var kTyp: KontoTyp,
     private var email: String,
     private var passwort: String) {
 }
