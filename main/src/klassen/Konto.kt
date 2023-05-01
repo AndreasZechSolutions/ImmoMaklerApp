@@ -1,8 +1,8 @@
 package klassen
 
 open class Konto(
-    private var kontoId: Int,
-    var kTyp: KontoTyp,
-    private var email: String,
-    private var passwort: String) {
+    var kontoId: Int,
+    var kontoBezeichnung: KontoTyp,
+    var email: String,
+    var passwort: String) {
 }
