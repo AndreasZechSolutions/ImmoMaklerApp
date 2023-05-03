@@ -1,5 +1,4 @@
-package klassen
-package utils
+package klassen.utils
 
 fun main() {
 
