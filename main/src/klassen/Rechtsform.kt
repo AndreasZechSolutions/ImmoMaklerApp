@@ -1,6 +1,6 @@
 package klassen
 
-class Rechtsform(var rechtsform: Map = mapOf<String, Boolean>(
+class Rechtsform(var rechtsform: Map<String, Boolean> = mapOf(
     "Einzelunternehmen" to false,
     "Einzelkaufmann" to false,
     "GbR" to false,
