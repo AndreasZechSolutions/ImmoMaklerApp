@@ -1,6 +1,6 @@
 package klassen
 
-class Haus(
+open class Haus(
     immoId: Int = 0,
     objektNr: String = "",
     gesamtFlaeche: Double = 0.0,

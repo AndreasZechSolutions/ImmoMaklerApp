@@ -1,6 +1,6 @@
 package klassen
 
-class Fachwerk(
+class Landhaus(
     immoId: Int = 0,
     objektNr: String = "",
     gesamtFlaeche: Double = 0.0,
@@ -22,6 +22,6 @@ class Fachwerk(
     link_images: List<String>,
     objektTyp: String = "Haus",
 
-    var hausTyp: String = "Fachwerkhaus"
+    var hausTyp: String = "Villa"
     ): Haus(immoId,objektNr,gesamtFlaeche,preisNetto,provision,steuer,typ,art,dachTyp,heizungsTyp,eAusweis,abwasser,frei,ort,kreis,bundesland,region,link_expose,link_images,objektTyp) {
 }
