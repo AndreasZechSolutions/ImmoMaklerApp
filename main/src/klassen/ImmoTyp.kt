@@ -1,4 +1,7 @@
 package klassen
 
-class ImmoTyp() {
+enum class ImmoTyp() {
+    Kauf,
+    Miete,
+    Pacht
 }

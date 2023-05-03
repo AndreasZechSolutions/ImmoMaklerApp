@@ -18,5 +18,7 @@ open class Immo(
     var kreis: String = "",
     var bundesland: BlandAbk,
     var region: Land,
+    var link_expose: String = "",
+    var link_images: List<String>
     ) {
 }

@@ -1,4 +1,6 @@
 package klassen
 
-class EnergieAusweis() {
+enum class EnergieAusweis() {
+    inVorbereitung,
+    vorhanden
 }

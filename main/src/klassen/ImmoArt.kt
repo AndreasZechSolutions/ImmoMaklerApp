@@ -1,4 +1,6 @@
 package klassen
 
-class ImmoArt() {
+enum class ImmoArt() {
+    Privat,
+    Gewerbe
 }

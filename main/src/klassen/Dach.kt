@@ -1,4 +1,12 @@
 package klassen
 
-class Dach() {
+enum class Dach() {
+    Satteldach,
+    Flachdach,
+    Pultdach,
+    Zeltdach,
+    Walmdach,
+    Schleppdach,
+    Mansarddach,
+    Reetdach
 }

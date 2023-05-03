@@ -1,4 +1,10 @@
 package klassen
 
-class Heizung() {
+enum class Heizung() {
+    Oel,
+    Gas,
+    Elektro,
+    Solar,
+    Waermepumpe,
+    Pellet
 }
