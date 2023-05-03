@@ -6,10 +6,11 @@ class Makler(
     kontoBezeichnung: KontoTyp,
     email: String = "",
     passwort: String = "",
+
     var firmaName: String = "",
     var firmaTyp: Rechtsform,
     var adresse: Anschrift,
     var angestellte: Mitarbeiter,
     var objekte: Immo
-    ) : Konto(kontoId, ausweisNr, kontoBezeichnung, email, passwort) {
+    ): Konto(kontoId, ausweisNr, kontoBezeichnung, email, passwort) {
 }

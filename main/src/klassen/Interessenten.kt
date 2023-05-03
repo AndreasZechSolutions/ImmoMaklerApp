@@ -6,6 +6,7 @@ class Interessenten(
     kontoBezeichnung: KontoTyp,
     email: String = "",
     passwort: String = "",
+
     var rolle: Anrede,
     var bezeichnung: Name,
     var adresse: Anschrift,
