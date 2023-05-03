@@ -1,4 +1,4 @@
-package klassen.klassen
+package klassen
 
-class EnergieAusweis {
+class EnergieAusweis() {
 }

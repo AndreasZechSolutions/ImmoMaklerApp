@@ -1,4 +1,4 @@
 package klassen
 
-class ImmoTyp {
+class ImmoTyp() {
 }

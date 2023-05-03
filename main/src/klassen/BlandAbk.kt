@@ -1,5 +1,5 @@
 package klassen
 
-class BlandAbk {
+class BlandAbk() {
 
 }

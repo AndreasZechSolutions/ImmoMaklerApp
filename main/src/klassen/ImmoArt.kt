@@ -1,4 +1,4 @@
 package klassen
 
-class ImmoArt {
+class ImmoArt() {
 }
