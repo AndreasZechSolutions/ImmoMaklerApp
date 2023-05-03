@@ -21,6 +21,6 @@ class Haus(
     link_expose: String = "",
     link_images: List<String>,
 
-    var klasse: String = "Haus"
+    var objektTyp: String = "Haus"
     ): Immo(immoId,objektNr,gesamtFlaeche,preisNetto,provision,steuer,typ,art,dachTyp,heizungsTyp,eAusweis,abwasser,frei,ort,kreis,bundesland,region,link_expose,link_images) {
 }
