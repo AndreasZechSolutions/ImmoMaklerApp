@@ -26,5 +26,5 @@ class Zweifamilien(
     objektTyp: String = "Haus",
 
     var hausTyp: String = "Zweifamilienhaus"
-    ): Haus(immoId,objektNr,immoObjektArt,bauJahr,gesamtFlaeche,geldTyp,preisNetto,provision,steuer,typ,art,dachTyp,heizungsTyp,eAusweis,abwasser,frei,ort,kreis,bundesland,region,link_expose,link_images,objektTyp) {
+    ): Haus(immoId,objektNr,immoObjektArt,bauJahr,gesamtFlaeche,preisNetto,geldTyp,provision,steuer,typ,art,dachTyp,heizungsTyp,eAusweis,abwasser,frei,ort,kreis,bundesland,region,link_expose,link_images,objektTyp) {
 }
