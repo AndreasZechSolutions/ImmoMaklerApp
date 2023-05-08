@@ -3,6 +3,7 @@ package klassen
 class Altbauwohnung(
     immoId: Int = 0,
     objektNr: String = "",
+    bauJahr: Int = 0,
     gesamtFlaeche: Double = 0.0,
     preisNetto: Double = 0.0,
     provision: Double = 0.0,
@@ -19,9 +20,12 @@ class Altbauwohnung(
     bundesland: BlandAbk,
     region: Land,
     link_expose: String = "",
-    link_images: List<String>,
+    link_images: String = "",
     objektTyp: String = "Wohnung",
 
-    var whgTyp: String = "Altbauwohnung"
-): Haus(immoId,objektNr,gesamtFlaeche,preisNetto,provision,steuer,typ,art,dachTyp,heizungsTyp,eAusweis,abwasser,frei,ort,kreis,bundesland,region,link_expose,link_images,objektTyp) {
+    var whgTyp: String = "Altbauwohnung",
+    var objektTitel: String = "",
+    var objektText: String = "",
+
+): Haus(immoId,objektNr,bauJahr,gesamtFlaeche,preisNetto,provision,steuer,typ,art,dachTyp,heizungsTyp,eAusweis,abwasser,frei,ort,kreis,bundesland,region,link_expose,link_images,objektTyp) {
 }

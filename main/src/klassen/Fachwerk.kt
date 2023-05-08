@@ -3,6 +3,7 @@ package klassen
 class Fachwerk(
     immoId: Int = 0,
     objektNr: String = "",
+    bauJahr: Int = 0,
     gesamtFlaeche: Double = 0.0,
     preisNetto: Double = 0.0,
     provision: Double = 0.0,
@@ -19,9 +20,10 @@ class Fachwerk(
     bundesland: BlandAbk,
     region: Land,
     link_expose: String = "",
-    link_images: List<String>,
+    link_images: String = "",
     objektTyp: String = "Haus",
 
-    var hausTyp: String = "Fachwerkhaus"
-    ): Haus(immoId,objektNr,gesamtFlaeche,preisNetto,provision,steuer,typ,art,dachTyp,heizungsTyp,eAusweis,abwasser,frei,ort,kreis,bundesland,region,link_expose,link_images,objektTyp) {
+    var hausTyp: String = "Fachwerkhaus",
+    var objektText: String = "",
+    ): Haus(immoId,objektNr,bauJahr,gesamtFlaeche,preisNetto,provision,steuer,typ,art,dachTyp,heizungsTyp,eAusweis,abwasser,frei,ort,kreis,bundesland,region,link_expose,link_images,objektTyp) {
 }

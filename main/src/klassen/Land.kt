@@ -8,5 +8,5 @@ enum class Land() {
     Frankreich,
     Italien,
     Spanien,
-    Portugal
+    Portugal,
 }

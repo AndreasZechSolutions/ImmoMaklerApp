@@ -3,6 +3,6 @@ package klassen
 enum class GaragenTyp() {
     Einzelgarage,
     Doppelgarage,
-    Großraumgarage,
+    Grossraumgarage,
     Reihengarage
 }

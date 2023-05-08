@@ -3,6 +3,7 @@ package klassen
 class Garage(
     immoId: Int = 0,
     objektNr: String = "",
+    bauJahr: Int = 0,
     gesamtFlaeche: Double = 0.0,
     preisNetto: Double = 0.0,
     provision: Double = 0.0,
@@ -19,15 +20,15 @@ class Garage(
     bundesland: BlandAbk,
     region: Land,
     link_expose: String = "",
-    link_images: List<String>,
+    link_images: String = "",
 
     var objektTyp: String = "Garage",
-    var titel: String = "",
-    var text: String = "",
+    var objektTitel: String = "",
+    var objektText: String = "",
     var garageTyp: GaragenTyp,
     var garageArt: GaragenArt,
     var garageTor: GaragenTor,
     var breite: Double = 0.0,
     var laenge: Double = 0.0
-): Immo(immoId,objektNr,gesamtFlaeche,preisNetto,provision,steuer,typ,art,dachTyp,heizungsTyp,eAusweis,abwasser,frei,ort,kreis,bundesland,region,link_expose,link_images) {
+): Immo(immoId,objektNr,bauJahr,gesamtFlaeche,preisNetto,provision,steuer,typ,art,dachTyp,heizungsTyp,eAusweis,abwasser,frei,ort,kreis,bundesland,region,link_expose,link_images) {
 }

@@ -1,8 +1,12 @@
 package klassen
 
+import klassen.utils
+
 open class Immo(
     var immoId: Int = 0,
     var objektNr: String = "",
+    var immoObjektArt: ObjektArt,
+    var bauJahr: Int = 0,
     var gesamtFlaeche: Double = 0.0,
     var preisNetto: Double = 0.0,
     var provision: Double = 0.0,
@@ -19,6 +23,6 @@ open class Immo(
     var bundesland: BlandAbk,
     var region: Land,
     var link_expose: String = "",
-    var link_images: List<String>
+    var link_images: String = "",
     ) {
 }

@@ -1,9 +1,12 @@
 package klassen.utils.database
 
-import klassen.Altbauwohnung
-import klassen.Bauernhof
+import klassen.*
+import klassen.utils.objekte
+
 
 fun erstelleObjekte() {
 
+
 }
+
 
