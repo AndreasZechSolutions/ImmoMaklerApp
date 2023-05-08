@@ -23,6 +23,14 @@ open class Haus(
     link_expose: String = "",
     link_images: String = "",
 
-    var objektTyp: String = "Haus"
+    var objektTyp: String = "Haus",
+    var renovierung: String = "",
+    var zimmer: String = "",
+    var raumHoehe: String = "",
+    var lage: String = "",
+    var bad: String = "",
+    var heizungsArt: String = "",
+    var garten: String = "",
+    var stellplatz: String = "",
     ): Immo(immoId,objektNr,immoObjektArt,bauJahr,gesamtFlaeche,preisNetto,provision,steuer,typ,art,dachTyp,heizungsTyp,eAusweis,abwasser,frei,ort,kreis,bundesland,region,link_expose,link_images) {
 }

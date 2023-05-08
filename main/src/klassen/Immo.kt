@@ -7,6 +7,7 @@ open class Immo(
     var bauJahr: Int = 0,
     var gesamtFlaeche: Double = 0.0,
     var preisNetto: Double = 0.0,
+    var geld: Waehrung,
     var provision: Double = 0.0,
     var steuer: Int = 19,
     var typ: ImmoTyp,
