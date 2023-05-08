@@ -3,6 +3,7 @@ package klassen
 class Garage(
     immoId: Int = 0,
     objektNr: String = "",
+    immoObjektArt: ObjektArt,
     bauJahr: Int = 0,
     gesamtFlaeche: Double = 0.0,
     preisNetto: Double = 0.0,

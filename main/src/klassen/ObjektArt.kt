@@ -1,4 +1,4 @@
-package klassen.utils
+package klassen
 
 enum class ObjektArt() {
     Altbau,Neubau

@@ -3,6 +3,7 @@ package klassen
 class Altbauwohnung(
     immoId: Int = 0,
     objektNr: String = "",
+    immoObjektArt: ObjektArt,
     bauJahr: Int = 0,
     gesamtFlaeche: Double = 0.0,
     preisNetto: Double = 0.0,
@@ -27,5 +28,5 @@ class Altbauwohnung(
     var objektTitel: String = "",
     var objektText: String = "",
 
-): Haus(immoId,objektNr,bauJahr,gesamtFlaeche,preisNetto,provision,steuer,typ,art,dachTyp,heizungsTyp,eAusweis,abwasser,frei,ort,kreis,bundesland,region,link_expose,link_images,objektTyp) {
+): Haus(immoId,objektNr,immoObjektArt,bauJahr,gesamtFlaeche,preisNetto,provision,steuer,typ,art,dachTyp,heizungsTyp,eAusweis,abwasser,frei,ort,kreis,bundesland,region,link_expose,link_images,objektTyp) {
 }
