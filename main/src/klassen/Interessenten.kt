@@ -12,6 +12,6 @@ class Interessenten(
     var adresse: Anschrift,
     var kommunikation: Kontakt,
     var bio: String = "",
-    var objekte: Immo
+    var merkListe: Immo
 ): Konto(kontoId, ausweisNr, kontoBezeichnung, email, passwort) {
 }

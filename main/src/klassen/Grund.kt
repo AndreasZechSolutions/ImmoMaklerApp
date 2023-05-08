@@ -3,6 +3,7 @@ package klassen
 class Grund(
     immoId: Int = 0,
     objektNr: String = "",
+    immoObjektArt: ObjektArt,
     bauJahr: Int = 0,
     gesamtFlaeche: Double = 0.0,
     preisNetto: Double = 0.0,
@@ -27,5 +28,5 @@ class Grund(
     var objektText: String = "",
     var breite: Double = 0.0,
     var laenge: Double = 0.0
-): Immo(immoId,objektNr,bauJahr,gesamtFlaeche,preisNetto,provision,steuer,typ,art,dachTyp,heizungsTyp,eAusweis,abwasser,frei,ort,kreis,bundesland,region,link_expose,link_images) {
+): Immo(immoId,objektNr,immoObjektArt,bauJahr,gesamtFlaeche,preisNetto,provision,steuer,typ,art,dachTyp,heizungsTyp,eAusweis,abwasser,frei,ort,kreis,bundesland,region,link_expose,link_images) {
 }

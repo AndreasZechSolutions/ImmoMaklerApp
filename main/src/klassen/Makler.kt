@@ -11,6 +11,6 @@ class Makler(
     var firmaTyp: Rechtsform,
     var adresse: Anschrift,
     var angestellte: Mitarbeiter,
-    var objekte: Immo
+    var anzahlObjekte: Immo
     ): Konto(kontoId, ausweisNr, kontoBezeichnung, email, passwort) {
 }
