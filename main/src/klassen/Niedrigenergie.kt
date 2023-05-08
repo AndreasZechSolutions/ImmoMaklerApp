@@ -4,7 +4,7 @@ class Niedrigenergie(
     immoId: Int = 0,
     objektNr: String = "",
     immoObjektArt: ObjektArt,
-    bauJahr: Int = 0,
+    bauJahr: String = "",
     gesamtFlaeche: Double = 0.0,
     preisNetto: Double = 0.0,
     geldTyp: Waehrung,

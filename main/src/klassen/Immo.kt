@@ -4,7 +4,7 @@ open class Immo(
     var immoId: Int = 0,
     var objektNr: String = "",
     var immoObjektArt: ObjektArt,
-    var bauJahr: Int = 0,
+    var bauJahr: String = "",
     var gesamtFlaeche: Double = 0.0,
     var preisNetto: Double = 0.0,
     var geldTyp: Waehrung,
@@ -22,7 +22,7 @@ open class Immo(
     var kreis: String = "",
     var bundesland: BlandAbk,
     var region: Land,
-    var link_expose: String = "",
-    var link_images: String = "",
+    linkExpose: String = "",
+    linkImages: String = "",
     ) {
 }

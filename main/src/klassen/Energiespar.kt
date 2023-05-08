@@ -4,7 +4,7 @@ class Energiespar(
     immoId: Int = 0,
     objektNr: String = "",
     immoObjektArt: ObjektArt,
-    bauJahr: Int = 0,
+    bauJahr: String = "",
     gesamtFlaeche: Double = 0.0,
     preisNetto: Double = 0.0,
     geldTyp: Waehrung,
@@ -21,12 +21,12 @@ class Energiespar(
     kreis: String = "",
     bundesland: BlandAbk,
     region: Land,
-    link_expose: String = "",
-    link_images: String = "",
+    linkExpose: String = "",
+    linkImages: String = "",
     objektTyp: String = "Haus",
 
     var hausTyp: String = "Massivhaus",
     var objektTitel: String = "",
     var objektText: String = "",
-): Haus(immoId,objektNr,immoObjektArt,bauJahr,gesamtFlaeche,preisNetto,geldTyp,provision,steuer,typ,art,dachTyp,heizungsTyp,eAusweis,abwasser,frei,ort,kreis,bundesland,region,link_expose,link_images,objektTyp) {
+): Haus(immoId,objektNr,immoObjektArt,bauJahr,gesamtFlaeche,preisNetto,geldTyp,provision,steuer,typ,art,dachTyp,heizungsTyp,eAusweis,abwasser,frei,ort,kreis,bundesland,region,linkExpose,linkImages,objektTyp) {
 }
