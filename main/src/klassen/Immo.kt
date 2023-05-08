@@ -1,7 +1,5 @@
 package klassen
 
-import klassen.utils
-
 open class Immo(
     var immoId: Int = 0,
     var objektNr: String = "",
