@@ -1,5 +1,5 @@
 package klassen
 
 enum class ObjektArt() {
-    Altbau,Neubau
+    Altbau,Neubau,WohnBusinesshaus,
 }
