@@ -15,6 +15,7 @@ open class Immo(
     var dachTyp: Dach,
     var heizungsTyp: Heizung,
     var eAusweis: EnergieAusweis,
+    var energierWert: String = "",
     var abwasser: String = "",
     var frei: String = "",
     var ort: String = "",

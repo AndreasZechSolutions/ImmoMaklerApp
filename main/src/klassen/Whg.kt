@@ -15,6 +15,7 @@ open class Whg(
     dachTyp: Dach,
     heizungsTyp: Heizung,
     eAusweis: EnergieAusweis,
+    energierWert: String = "",
     abwasser: String = "",
     frei: String = "",
     ort: String = "",
@@ -24,7 +25,7 @@ open class Whg(
     link_expose: String = "",
     link_images: String = "",
 
-    var objektTyp: String = "Wohnung"
+    var objektTyp: String = "Wohnung",
     var renovierung: String = "",
     var zimmer: String = "",
     var raumHoehe: String = "",
@@ -34,5 +35,5 @@ open class Whg(
     var garten: String = "",
     var stellplatz: String = "",
 
-    ): Immo(immoId,objektNr,immoObjektArt,bauJahr,gesamtFlaeche,preisNetto,geldTyp,provision,steuer,typ,art,dachTyp,heizungsTyp,eAusweis,abwasser,frei,ort,kreis,bundesland,region,link_expose,link_images) {
+    ): Immo(immoId,objektNr,immoObjektArt,bauJahr,gesamtFlaeche,preisNetto,geldTyp,provision,steuer,typ,art,dachTyp,heizungsTyp,eAusweis,energierWert,abwasser,frei,ort,kreis,bundesland,region,link_expose,link_images) {
 }

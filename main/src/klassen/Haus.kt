@@ -15,6 +15,7 @@ open class Haus(
     dachTyp: Dach,
     heizungsTyp: Heizung,
     eAusweis: EnergieAusweis,
+    energierWert: String = "",
     abwasser: String = "",
     frei: String = "",
     ort: String = "",
@@ -30,8 +31,15 @@ open class Haus(
     var raumHoehe: String = "",
     var lage: String = "",
     var bad: String = "",
+    var kueche: String = "",
+    var keller: String = "",
     var heizungsArt: String = "",
     var garten: String = "",
     var stellplatz: String = "",
-    ): Immo(immoId,objektNr,immoObjektArt,bauJahr,gesamtFlaeche,preisNetto,geldTyp,provision,steuer,typ,art,dachTyp,heizungsTyp,eAusweis,abwasser,frei,ort,kreis,bundesland,region,link_expose,link_images) {
+    var nettomieteKaltWohnen: Double = 0.0,
+    var nettomieteKaltGewerbe: Double = 0.0,
+    var nettomieteIstJahr: Double = 0.0,
+    var nettomieteSollJahr: Double = 0.0,
+
+): Immo(immoId,objektNr,immoObjektArt,bauJahr,gesamtFlaeche,preisNetto,geldTyp,provision,steuer,typ,art,dachTyp,heizungsTyp,eAusweis,energierWert,abwasser,frei,ort,kreis,bundesland,region,link_expose,link_images) {
 }

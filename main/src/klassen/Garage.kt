@@ -15,6 +15,7 @@ class Garage(
     dachTyp: Dach,
     heizungsTyp: Heizung,
     eAusweis: EnergieAusweis,
+    energierWert: String = "",
     abwasser: String = "",
     frei: String = "",
     ort: String = "",
@@ -32,5 +33,5 @@ class Garage(
     var garageTor: GaragenTor,
     var breite: Double = 0.0,
     var laenge: Double = 0.0
-): Immo(immoId,objektNr,immoObjektArt,bauJahr,gesamtFlaeche,preisNetto,geldTyp,provision,steuer,typ,art,dachTyp,heizungsTyp,eAusweis,abwasser,frei,ort,kreis,bundesland,region,link_expose,link_images) {
+): Immo(immoId,objektNr,immoObjektArt,bauJahr,gesamtFlaeche,preisNetto,geldTyp,provision,steuer,typ,art,dachTyp,heizungsTyp,eAusweis,energierWert,abwasser,frei,ort,kreis,bundesland,region,link_expose,link_images) {
 }
