@@ -21,7 +21,7 @@ open class Haus(
     ort: String = "",
     kreis: String = "",
     bundesland: BlandAbk,
-    region: Land,
+    region: Land = Land.Deutschland,
     linkExpose: String = "",
     linkImages: String = "",
 
@@ -37,11 +37,11 @@ open class Haus(
     var garten: String = "",
     var stellPlatz: String = "",
     var nettoMieteKaltWohnen: Double = 0.0,
-    var nettomMieteKaltGewerbe: Double = 0.0,
+    var nettoMieteKaltGewerbe: Double = 0.0,
     var nettoMieteIstJahr: Double = 0.0,
     var nettoMieteSollJahr: Double = 0.0,
 
-): Immo(
+    ): Immo(
     immoId,
     objektNr,
     immoObjektArt,

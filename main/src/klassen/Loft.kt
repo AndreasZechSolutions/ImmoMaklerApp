@@ -15,6 +15,7 @@ class Loft(
     dachTyp: Dach,
     heizungsTyp: Heizung,
     eAusweis: EnergieAusweis,
+    energierWert: String = "",
     abwasser: String = "",
     frei: String = "",
     ort: String = "",
@@ -36,7 +37,7 @@ class Loft(
     wohnflaeche: String = "",
     nutzFlaeche: String = "",
 
-    var whgTyp: String = "Loft"
+    var whgTyp: String = "Loft",
     var objektTitel: String = "",
     var objektText: String = "",
 
@@ -55,6 +56,7 @@ class Loft(
     dachTyp,
     heizungsTyp,
     eAusweis,
+    energierWert,
     abwasser,
     frei,
     ort,
