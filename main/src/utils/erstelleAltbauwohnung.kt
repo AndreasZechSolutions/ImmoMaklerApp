@@ -1,6 +1,0 @@
-package utils
-
-fun erstelleAltbauwohnung():  {
-
-
-}
