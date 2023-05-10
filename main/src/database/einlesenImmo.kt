@@ -2,7 +2,7 @@ package klassen.utils.database
 
 import klassen.*
 
-fun einlesenDatabase() {
+fun einlesenImmo(): MutableList<Immo> {
 
     var objekte = mutableListOf<Immo>()
 
@@ -137,4 +137,5 @@ fun einlesenDatabase() {
         "Repräsentative Luxuswohnung",
         "Perfekte Citywohnung mit Designerküche, Balkon und Stellplatz in 1A Kiez nördlich der Torstraße. Diese Wohnung kann als Kapitalanlage oder als private Cityresidenz erworben werden.",
     ))
+    return objekte
 }

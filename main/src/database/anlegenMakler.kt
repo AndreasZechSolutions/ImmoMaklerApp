@@ -1,12 +1,11 @@
 package klassen.utils.database
 
-import klassen.KontoTyp
-import klassen.Makler
-import klassen.Rechtsform
-import klassen.utils.maklerIndex
+import klassen.*
+import utils.*
+import database.*
 
 
-fun anlegenMakler(index: Int) {
+fun anlegenMakler(index: Int): MutableList<Makler> {
 
 
     var maklerListe = mutableListOf<Makler>()
@@ -41,4 +40,5 @@ fun anlegenMakler(index: Int) {
                 "\n" +
                 "Ihre ganzheitliche und professionelle Beratung vor und nach dem Verkauf steht bei uns im Vordergrund. Hochwertige Privat-Immobilien von Ihrem Immobilienmakler in Berlin-Neuruppin."
         ))
+    return maklerListe
 }

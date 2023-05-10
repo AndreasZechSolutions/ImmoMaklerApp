@@ -4,7 +4,7 @@ import klassen.*
 import utils.*
 import database.*
 
-fun ausgabeKonsole(){
+fun ausgabeKonsoleInteressent(index: Int, klasse: Interessenten) {
 
-    println("ausgabeKonsole")
+
 }

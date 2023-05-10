@@ -4,7 +4,8 @@ import klassen.*
 import utils.*
 import database.*
 
-fun ausgabeKonsole(){
+fun ausgabeKonsoleImmo(index: Int)  {
 
-    println("ausgabeKonsole")
+
 }
+
