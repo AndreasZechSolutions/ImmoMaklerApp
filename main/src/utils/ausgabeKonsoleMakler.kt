@@ -4,7 +4,7 @@ import klassen.*
 import utils.*
 import database.*
 
-fun ausgabeKonsoleMakler(index: Int, maklerListe: MutableList<Makler>) {
+fun ausgabeKonsoleMakler(index: Int, maklerListe: List<Makler>) {
 
     if(maklerListe[index].firmaName != "")
         println(maklerListe[index].firmaName)
