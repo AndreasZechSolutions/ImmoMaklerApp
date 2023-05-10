@@ -1,8 +1,6 @@
-package klassen.utils.database
+package utils
 
 import klassen.*
-import utils.*
-import database.*
 
 fun ausgabeKonsoleImmo(index: Int, maklerListe: List<Immo>)  {
 
