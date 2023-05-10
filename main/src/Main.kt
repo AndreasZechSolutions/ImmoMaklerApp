@@ -12,7 +12,4 @@ fun main() {
     var objekte = einlesenImmo()
 
     ausgabeKonsoleMakler(maklerIndex, maklerListe)
-
-
-
 }

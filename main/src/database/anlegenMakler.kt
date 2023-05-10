@@ -39,10 +39,11 @@ fun anlegenMakler(index: Int): MutableList<Makler> {
             "Gerne begleiten wir als Makler mit juristischem Sachverstand den Verkauf Ihrer Immobilie.\n\n" +
             "Wir vermitteln Häuser und Grundstücke, Landhäuser, Bauernhöfe, Einfamilienhäuser oder\n" +
             "Mehrfamilienhäuser auch als Kapitalanlagen in Neuruppin, Berlin und Brandenburg.\n\n" +
-            "Bastgen Berlin Immobilien ist ein persönlich geführtes Unternehmen mit über 10 Jahren\n" +
-            "Erfahrung als Immobilienmaklerin.\n\n" +
+            "Bastgen Berlin Immobilien ist ein persönlich geführtes Unternehmen\n" +
+            "mit über 10 Jahren Erfahrung als Immobilienmaklerin.\n\n" +
             "Ihre ganzheitliche und professionelle Beratung vor und nach dem Verkauf\n" +
-            "steht bei uns im Vordergrund. Hochwertige Privat-Immobilien von Ihrem Immobilienmakler in Berlin-Neuruppin."
+            "steht bei uns im Vordergrund.\n\n" +
+            "Hochwertige Privat-Immobilien von Ihrem Immobilienmakler in Berlin-Neuruppin."
         ))
     return maklerListe
 }
