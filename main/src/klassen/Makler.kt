@@ -29,7 +29,5 @@ class Makler(
 
     var bio: String = "",
 
-    var objekte: MutableList<Immo> = mutableListOf()
-
     ): Konto(kontoId, ausweisNr, kontoBezeichnung, email, passwort) {
 }

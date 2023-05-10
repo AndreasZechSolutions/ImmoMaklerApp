@@ -1,5 +1,5 @@
 package klassen
 
-enum class KontoTyp() {
+enum class KontoTyp {
     Interessent, Makler
 }

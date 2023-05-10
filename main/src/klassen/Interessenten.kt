@@ -27,7 +27,5 @@ class Interessenten(
 
     var bio: String = "",
 
-    var merkListe: MutableList<Immo> = mutableListOf()
-
 ): Konto(kontoId, ausweisNr, kontoBezeichnung, email, passwort) {
 }
