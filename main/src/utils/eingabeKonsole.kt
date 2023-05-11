@@ -6,11 +6,12 @@ fun eingabeKonsole(): Int{
 
     while(zahl == null){
         ausgabeKonsoleMenu()
-        print("Eingabe 1 für Impressum: ")
+       print("Eingabe 1 für Impressum: ")
         try {
             zahl = readln().toInt()
         } catch (ex: Exception){
-            // Entsprechende Fehlermeldung ausgeben
+            // Fehlermeldung
+            ausgabeKonsole("Keine Zahl. Bitte wiederhole die Eingabe: ")
         }
 
         if (zahl != null) {
