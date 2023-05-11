@@ -1,4 +1,5 @@
 package klassen.utils.database
+import klassen.Immo
 import klassen.utils.database.utils.eingabeLoginRegistrierung
 import klassen.utils.database.utils.einlesenObjekte
 import utils.*
@@ -6,10 +7,15 @@ import utils.*
 // Globale Variablen
 var maklerIndex = 0
 var maklerListe = anlegenMakler(maklerIndex)
-var objekte = einlesenObjekte()
+var objektIndex = 0
+var objektListe: MutableList<Immo> = mutableListOf()
 val wahr = true
 
 fun main() {
+
+    for(i in 0..2)
+        einlesenObjekte(i)
+
 
     eingabeLoginRegistrierung()
 
