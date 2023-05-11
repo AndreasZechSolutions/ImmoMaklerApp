@@ -24,5 +24,6 @@ open class Immo(
     var region: Land = Land.Deutschland,
     var linkExpose: String = "",
     var linkImages: String = "",
+    var objektTyp: String = "",
     ) {
 }

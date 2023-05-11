@@ -1,5 +1,6 @@
 package klassen.utils.database.utils
 import klassen.*
+import klassen.utils.database.Haus
 import klassen.utils.database.qm
 
 
@@ -57,10 +58,10 @@ fun ausgabeKonsoleObjekte(index: Int, objektListe: List<Immo>)  {
     if(objektListe[index].linkImages != "")
         println("Bilder: ${objektListe[index].linkImages} ")
 
-    // if (objektListe[index].objectTyp == "Haus")
-
-
-
-
+    if (objektListe[index].objektTyp == "Haus") {
+        var hausObjekt: Haus = objektListe[index] as Haus
+        if (hausObjekt.renovierung != "")
+            println("Bilder: ${hausObjekt.renovierung} ")
+    }
 }
 

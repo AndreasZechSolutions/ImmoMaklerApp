@@ -25,8 +25,8 @@ open class Haus(
     region: Land = Land.Deutschland,
     linkExpose: String = "",
     linkImages: String = "",
+    objektTyp: String = "Haus",
 
-    var objektTyp: String = "Haus",
     var renovierung: String = "",
     var zimmer: String = "",
     var raumHoehe: String = "",
@@ -65,5 +65,7 @@ open class Haus(
     bundesland,
     region,
     linkExpose,
-    linkImages) {
+    linkImages,
+    objektTyp,
+    ) {
 }
