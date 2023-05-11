@@ -6,7 +6,7 @@ fun eingabeKonsole(): Int{
 
     while(zahl == null){
         ausgabeKonsoleMenu()
-       print("Eingabe 1 für Impressum: ")
+       print("Wähle ein Zahl: ")
         try {
             zahl = readln().toInt()
         } catch (ex: Exception){
@@ -17,7 +17,7 @@ fun eingabeKonsole(): Int{
         if (zahl != null) {
             if (zahl < 0)
                 zahl = null
-            else if (zahl > 1)
+            else if (zahl > 2)
                 zahl = null
         }
     }

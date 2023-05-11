@@ -1,8 +1,8 @@
 package klassen.utils.database
 import database.anlegenMakler
-import klassen.utils.database.utils.ausgabeKonsoleObjekte
 import klassen.utils.database.utils.eingabeLoginRegistrierung
 import database.einlesenObjekte
+import klassen.utils.database.utils.anzeigenAllerObjekte
 import utils.*
 
 // Globale Variablen
@@ -16,8 +16,6 @@ const val mwSt = "MwSt."
 
 fun main() {
 
-    ausgabeKonsoleObjekte(0, objektListe) // Testphase
-
     eingabeLoginRegistrierung()
 
     var auswahl: Int
@@ -25,10 +23,8 @@ fun main() {
     while(wahr){
         auswahl = eingabeKonsole()
         when(auswahl){
-            1 -> ausgabeKonsoleMakler(maklerIndex, maklerListe)
+            1 -> anzeigenAllerObjekte(0,2, objektListe)
+            2 -> ausgabeKonsoleMakler(maklerIndex, maklerListe)
         }
     }
 }
-
-// ausgabeKonsoleMakler(maklerIndex, maklerListe)  ==>  Test erfolgreich
-// eingabeKonsole()  ==>  Test erfolgreich
