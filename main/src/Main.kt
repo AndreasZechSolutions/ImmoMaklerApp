@@ -10,9 +10,9 @@ var maklerIndex = 0
 var maklerListe = anlegenMakler(maklerIndex)
 var objektIndex = 0
 var objektListe = einlesenObjekte()
-val wahr = true
-val qm = "m²"
-val mwst = "MwSt."
+const val wahr = true
+const val qm = "m²"
+const val mwst = "MwSt."
 
 fun main() {
 

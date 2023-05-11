@@ -44,17 +44,19 @@ fun ausgabeKonsoleObjekte(index: Int, objektListe: List<Immo>)  {
         println("Frei ab: ${objektListe[index].frei} ")
 
     if(objektListe[index].ort != "")
-        println("Frei ab: ${objektListe[index].ort} ")
+        println("Ort: ${objektListe[index].ort} ")
 
-    print("Bundesland: ${objektListe[index].bundesland} ")
+    println("Bundesland: ${objektListe[index].bundesland} ")
 
-    println("Bundesland: ${objektListe[index].region} ")
+    println("Land: ${objektListe[index].region} ")
 
     if(objektListe[index].linkExpose != "")
         println("Frei ab: ${objektListe[index].linkExpose} ")
 
     if(objektListe[index].linkImages != "")
         println("Frei ab: ${objektListe[index].linkImages} ")
+
+
 
 }
 

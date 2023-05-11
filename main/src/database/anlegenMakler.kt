@@ -1,7 +1,7 @@
 package database
 import klassen.*
 
-fun anlegenMakler(index: Int): List<Makler> {
+fun anlegenMakler(index: Int): MutableList<Makler> {
 
 
     val listeMakler = mutableListOf<Makler>()
