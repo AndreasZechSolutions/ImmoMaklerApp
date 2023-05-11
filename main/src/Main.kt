@@ -11,9 +11,18 @@ var objekte = einlesenImmo()
 
 
 fun main() {
-    var auswahl = eingabeKonsole()
+    var auswahl: Int
+    val wahr = true
 
-    
+    while(wahr){
+        auswahl = eingabeKonsole()
+        when(auswahl){
+            1 -> ausgabeKonsoleMakler(maklerIndex, maklerListe)
+        }
+    }
+
+
+
 }
 
 // ausgabeKonsoleMakler(maklerIndex, maklerListe)  ==>  Test erfolgreich
