@@ -24,3 +24,4 @@ fun main() {
 }
 
 // ausgabeKonsoleMakler(maklerIndex, maklerListe)  ==>  Test erfolgreich
+// eingabeKonsole()  ==>  Test erfolgreich
