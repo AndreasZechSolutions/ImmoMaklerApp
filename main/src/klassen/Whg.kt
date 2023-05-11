@@ -1,5 +1,6 @@
 package klassen
 
+
 open class Whg(
     immoId: Int = 0,
     objektNr: String = "",
