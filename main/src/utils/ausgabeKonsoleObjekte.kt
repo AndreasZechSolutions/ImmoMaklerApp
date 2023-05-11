@@ -5,18 +5,21 @@ import klassen.utils.database.qm
 fun ausgabeKonsoleObjekte(index: Int, objektListe: List<Immo>)  {
 
     if(objektListe[index].objektNr != "")
-        println(objektListe[index].objektNr)
+        println("ObjektNr.: ${objektListe[index].objektNr} ")
 
-    println(objektListe[index].immoObjektArt)
+    println("ObjektArt.: ${objektListe[index].immoObjektArt} ")
 
     if(objektListe[index].bauJahr != "")
-        println(objektListe[index].bauJahr)
+        println("Baujahr: ${objektListe[index].bauJahr} ")
 
     if(objektListe[index].gesamtFlaeche != 0.00)
         println("${objektListe[index].gesamtFlaeche} $qm")
 
     if(objektListe[index].preisNetto != 0.00)
-        print("${objektListe[index].preisNetto} ${objektListe[index].geldTyp}")
+        print("Preis Netto: ${objektListe[index].preisNetto} ${objektListe[index].geldTyp}")
+
+    if(objektListe[index].provision != 0.00)
+        println("Provision: ${objektListe[index].provision} ")
 
 }
 

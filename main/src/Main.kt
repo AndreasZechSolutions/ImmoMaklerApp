@@ -12,6 +12,7 @@ var objektIndex = 0
 var objektListe = einlesenObjekte()
 val wahr = true
 val qm = "m²"
+val mwst = "MwSt."
 
 fun main() {
 
