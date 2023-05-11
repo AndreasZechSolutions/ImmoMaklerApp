@@ -6,7 +6,6 @@ fun einlesenObjekte(): List<Immo> {
 
     val objekte = mutableListOf<Immo>()
 
-
     objekte.add(
         0, Einfamilien(
             1,
