@@ -1,5 +1,4 @@
 package klassen.utils.database
-
 import klassen.*
 
 fun einlesenObjekte(): MutableList<Immo> {
