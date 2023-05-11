@@ -10,7 +10,7 @@ var maklerIndex = 0
 var maklerListe = anlegenMakler(maklerIndex)
 var objektIndex = 0
 var objektListe = einlesenObjekte()
-const val wahr = true
+var wahr = true
 const val qm = "m²"
 const val mwSt = "MwSt."
 
