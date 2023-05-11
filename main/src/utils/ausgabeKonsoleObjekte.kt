@@ -21,5 +21,8 @@ fun ausgabeKonsoleObjekte(index: Int, objektListe: List<Immo>)  {
     if(objektListe[index].provision != 0.00)
         println("Provision: ${objektListe[index].provision} ")
 
+    if(objektListe[index].steuer != 0)
+        println("Mehrwertsteuer:  ${objektListe[index].steuer} ")
+
 }
 
