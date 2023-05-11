@@ -13,11 +13,9 @@ val wahr = true
 
 fun main() {
 
-    for(i in 0..2)
-        einlesenObjekte(i)
+    objektListe = einlesenObjekte(objektIndex)
 
-
-    eingabeLoginRegistrierung()
+        eingabeLoginRegistrierung()
 
     var auswahl: Int
 
