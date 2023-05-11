@@ -2,6 +2,7 @@ package klassen.utils.database.utils
 import klassen.*
 import klassen.utils.database.qm
 
+
 fun ausgabeKonsoleObjekte(index: Int, objektListe: List<Immo>)  {
 
     if(objektListe[index].objektNr != "")
@@ -57,6 +58,7 @@ fun ausgabeKonsoleObjekte(index: Int, objektListe: List<Immo>)  {
         println("Bilder: ${objektListe[index].linkImages} ")
 
     // if (objektListe[index].objectTyp == "Haus")
+
 
 
 
