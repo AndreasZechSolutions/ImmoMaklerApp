@@ -10,10 +10,11 @@ var maklerListe = anlegenMakler(maklerIndex)
 var objektIndex = 0
 var objektListe = einlesenObjekte()
 val wahr = true
+val qm = "m²"
 
 fun main() {
 
-    ausgabeKonsoleObjekte(1, objektListe)
+    ausgabeKonsoleObjekte(0, objektListe)
 
     eingabeLoginRegistrierung()
 

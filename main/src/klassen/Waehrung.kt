@@ -1,5 +1,5 @@
 package klassen
 
 enum class Waehrung() {
-    EUR,USD
+    EUR,USD,
 }
