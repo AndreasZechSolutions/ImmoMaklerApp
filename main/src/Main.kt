@@ -7,7 +7,7 @@ import database.*
 // Globale Variablen
 var maklerIndex = 0
 var maklerListe = anlegenMakler(maklerIndex)
-var objekte = einlesenImmo()
+var objekte = einlesenObjekte()
 val wahr = true
 
 fun main() {
