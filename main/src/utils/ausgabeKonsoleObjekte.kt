@@ -13,7 +13,7 @@ fun ausgabeKonsoleObjekte(index: Int, objektListe: List<Immo>)  {
         println("Baujahr: ${objektListe[index].bauJahr} ")
 
     if(objektListe[index].gesamtFlaeche != 0.00)
-        println("${objektListe[index].gesamtFlaeche} $qm")
+        println("Gesamtfläche: ${objektListe[index].gesamtFlaeche} $qm")
 
     if(objektListe[index].preisNetto != 0.00)
         print("Preis Netto: ${objektListe[index].preisNetto} ${objektListe[index].geldTyp}")
