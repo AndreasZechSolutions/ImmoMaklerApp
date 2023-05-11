@@ -17,7 +17,6 @@ fun ausgabeKonsoleMakler(index: Int, maklerListe: List<Makler>) {
     if((maklerListe[index].postleitzahl != "") && (maklerListe[index].ort != ""))
         println(maklerListe[index].postleitzahl + " " + maklerListe[index].ort)
 
-
     for(i in 1..2)
         print("\n")
 
