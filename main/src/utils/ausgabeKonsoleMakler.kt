@@ -43,5 +43,6 @@ fun ausgabeKonsoleMakler(index: Int, maklerListe: List<Makler>) {
     if(maklerListe[index].bio != "")
         println("Über uns:\n" +
                 "=========\n" +
-                maklerListe[index].bio)
+                maklerListe[index].bio
+        )
 }

@@ -1,10 +1,6 @@
-package klassen.utils.database
+package utils
 
-import klassen.*
-import utils.*
-import database.*
+fun ausgabeKonsole(text: String){
 
-fun ausgabeKonsole(){
-
-    println("ausgabeKonsole")
+    println(text)
 }

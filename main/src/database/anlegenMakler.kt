@@ -8,9 +8,9 @@ import database.*
 fun anlegenMakler(index: Int): MutableList<Makler> {
 
 
-    var maklerListe = mutableListOf<Makler>()
+    val listeMakler = mutableListOf<Makler>()
 
-    maklerListe.add(index,Makler(
+    listeMakler.add(index,Makler(
         index,
         "B615Y3Z56",
         KontoTyp.Makler,
@@ -45,5 +45,5 @@ fun anlegenMakler(index: Int): MutableList<Makler> {
             "steht bei uns im Vordergrund.\n\n" +
             "Hochwertige Privat-Immobilien von Ihrem Immobilienmakler in Berlin-Neuruppin."
         ))
-    return maklerListe
+    return listeMakler
 }

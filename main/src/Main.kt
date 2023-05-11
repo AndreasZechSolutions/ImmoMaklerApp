@@ -6,10 +6,11 @@ import database.*
 
 // Globale Variablen
 var maklerIndex = 0
+var maklerListe = anlegenMakler(maklerIndex)
+var objekte = einlesenImmo()
+
 
 fun main() {
-    var maklerListe = anlegenMakler(maklerIndex)
-    var objekte = einlesenImmo()
+    // ausgabeKonsoleMakler(maklerIndex, maklerListe) // Test erfolgreich
 
-    ausgabeKonsoleMakler(maklerIndex, maklerListe)
 }
