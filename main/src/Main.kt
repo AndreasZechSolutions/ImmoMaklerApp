@@ -11,6 +11,9 @@ var objekte = einlesenImmo()
 
 
 fun main() {
-    // ausgabeKonsoleMakler(maklerIndex, maklerListe) // Test erfolgreich
+    var auswahl = eingabeKonsole()
 
+    
 }
+
+// ausgabeKonsoleMakler(maklerIndex, maklerListe)  ==>  Test erfolgreich

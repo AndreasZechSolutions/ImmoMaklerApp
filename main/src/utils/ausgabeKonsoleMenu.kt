@@ -2,7 +2,8 @@ package utils
 
 fun ausgabeKonsoleMenu() {
 
-    println("Auswahl\n" +
+    println("\n\n" +
+            "Auswahl\n" +
             "=======\n\n" +
             "1. Impressum\n"
     )
