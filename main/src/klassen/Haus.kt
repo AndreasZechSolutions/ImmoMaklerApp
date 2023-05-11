@@ -1,4 +1,5 @@
-package klassen
+package klassen.utils.database
+import klassen.*
 
 open class Haus(
     immoId: Int = 0,

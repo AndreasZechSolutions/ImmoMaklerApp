@@ -1,5 +1,7 @@
 package klassen
 
+import klassen.utils.database.Haus
+
 class Zweifamilien(
     immoId: Int = 0,
     objektNr: String = "",

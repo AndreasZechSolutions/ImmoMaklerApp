@@ -1,4 +1,5 @@
 package klassen
+import klassen.utils.database.Haus
 
 class Einfamilien(
     immoId: Int = 0,

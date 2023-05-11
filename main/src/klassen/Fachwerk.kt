@@ -1,5 +1,7 @@
 package klassen
 
+import klassen.utils.database.Haus
+
 class Fachwerk(
     immoId: Int = 0,
     objektNr: String = "",
