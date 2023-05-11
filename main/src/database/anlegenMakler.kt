@@ -1,4 +1,4 @@
-package klassen.utils.database
+package database
 import klassen.*
 
 fun anlegenMakler(index: Int): List<Makler> {

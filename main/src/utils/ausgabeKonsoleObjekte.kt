@@ -1,5 +1,6 @@
-package klassen.utils.database
+package klassen.utils.database.utils
 import klassen.*
+import klassen.utils.database.qm
 
 fun ausgabeKonsoleObjekte(index: Int, objektListe: List<Immo>)  {
 

@@ -1,7 +1,8 @@
 package klassen.utils.database
-import klassen.Immo
+import database.anlegenMakler
+import klassen.utils.database.utils.ausgabeKonsoleObjekte
 import klassen.utils.database.utils.eingabeLoginRegistrierung
-import klassen.utils.database.utils.einlesenObjekte
+import database.einlesenObjekte
 import utils.*
 
 // Globale Variablen

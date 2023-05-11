@@ -1,5 +1,4 @@
-package klassen.utils.database.utils
-
+package database
 import klassen.*
 
 fun einlesenObjekte(): List<Immo> {
