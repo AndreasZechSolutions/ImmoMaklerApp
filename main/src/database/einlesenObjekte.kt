@@ -1,11 +1,11 @@
 package klassen.utils.database.utils
 import klassen.*
 
-fun einlesenObjekte(index: Int): MutableList<Immo> {
+fun einlesenObjekte(): List<Immo> {
 
     var objekte = mutableListOf<Immo>()
 
-    if(index == 0)
+
         objekte.add(0, Einfamilien(
             1,
             "BBI-1",
@@ -50,7 +50,7 @@ fun einlesenObjekte(index: Int): MutableList<Immo> {
             "",
         ))
 
-    if(index == 1)
+
         objekte.add(1, Mehrfamilien(
             2,
             "BBI-2",
@@ -95,7 +95,6 @@ fun einlesenObjekte(index: Int): MutableList<Immo> {
             "",
         ))
 
-    if(index == 2)
     objekte.add(2, Mehrfamilien(
         3,
         "BBI-3",

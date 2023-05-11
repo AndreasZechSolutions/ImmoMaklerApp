@@ -8,14 +8,14 @@ import utils.*
 var maklerIndex = 0
 var maklerListe = anlegenMakler(maklerIndex)
 var objektIndex = 0
-var objektListe: MutableList<Immo> = mutableListOf()
+var objektListe = einlesenObjekte()
 val wahr = true
 
 fun main() {
 
-    objektListe = einlesenObjekte(objektIndex)
+    ausgabeKonsoleObjekte(1, objektListe)
 
-        eingabeLoginRegistrierung()
+    eingabeLoginRegistrierung()
 
     var auswahl: Int
 
