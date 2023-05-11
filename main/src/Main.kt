@@ -1,4 +1,5 @@
 package klassen.utils.database
+import klassen.utils.database.utils.eingabeLoginRegistrierung
 import utils.*
 
 // Globale Variablen
@@ -8,6 +9,9 @@ var objekte = einlesenObjekte()
 val wahr = true
 
 fun main() {
+
+    eingabeLoginRegistrierung()
+
     var auswahl: Int
 
     while(wahr){
