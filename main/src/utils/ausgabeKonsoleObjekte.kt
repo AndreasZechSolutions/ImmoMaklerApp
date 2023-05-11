@@ -51,10 +51,10 @@ fun ausgabeKonsoleObjekte(index: Int, objektListe: List<Immo>)  {
     println("Land: ${objektListe[index].region} ")
 
     if(objektListe[index].linkExpose != "")
-        println("Frei ab: ${objektListe[index].linkExpose} ")
+        println("Exposé: ${objektListe[index].linkExpose} ")
 
     if(objektListe[index].linkImages != "")
-        println("Frei ab: ${objektListe[index].linkImages} ")
+        println("Bilder: ${objektListe[index].linkImages} ")
 
     // if (objektListe[index].objectTyp == "Haus")
 
