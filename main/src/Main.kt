@@ -8,11 +8,10 @@ import database.*
 var maklerIndex = 0
 var maklerListe = anlegenMakler(maklerIndex)
 var objekte = einlesenImmo()
-
+val wahr = true
 
 fun main() {
     var auswahl: Int
-    val wahr = true
 
     while(wahr){
         auswahl = eingabeKonsole()
@@ -20,9 +19,6 @@ fun main() {
             1 -> ausgabeKonsoleMakler(maklerIndex, maklerListe)
         }
     }
-
-
-
 }
 
 // ausgabeKonsoleMakler(maklerIndex, maklerListe)  ==>  Test erfolgreich
