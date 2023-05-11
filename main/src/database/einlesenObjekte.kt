@@ -1,7 +1,7 @@
 package database
 import klassen.*
 
-fun einlesenObjekte(): List<Immo> {
+fun einlesenObjekte(): MutableList<Immo> {
 
     val objekte = mutableListOf<Immo>()
 

@@ -56,14 +56,5 @@ fun ausgabeKonsoleObjekte(index: Int, objektListe: List<Immo>)  {
     if(objektListe[index].linkImages != "")
         println("Frei ab: ${objektListe[index].linkImages} ")
 
-
-
-
-
-
-
-
-
-
 }
 
