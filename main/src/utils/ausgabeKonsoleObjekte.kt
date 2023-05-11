@@ -83,22 +83,22 @@ fun ausgabeKonsoleObjekte(index: Int, objektListe: List<Immo>)  {
             println("Bad: ${hausObjekt.bad} ")
 
         if (hausObjekt.kueche != "")
-            println("Bad: ${hausObjekt.kueche} ")
+            println("Küche: ${hausObjekt.kueche} ")
 
         if (hausObjekt.keller != "")
-            println("Bad: ${hausObjekt.keller} ")
+            println("Keller: ${hausObjekt.keller} ")
 
         if (hausObjekt.heizungsArt != "")
-            println("Bad: ${hausObjekt.heizungsArt} ")
+            println("Heizungsart: ${hausObjekt.heizungsArt} ")
 
         if (hausObjekt.garten != "")
-            println("Bad: ${hausObjekt.garten} ")
+            println("Garten: ${hausObjekt.garten} ")
 
         if (hausObjekt.stellPlatz != "")
-            println("Bad: ${hausObjekt.stellPlatz} ")
+            println("Stellplatz: ${hausObjekt.stellPlatz} ")
 
         if (hausObjekt.nettoMieteKaltGewerbe != 0.00)
-            println("Bad: ${hausObjekt.nettoMieteKaltGewerbe} ${objektListe[index].geldTyp}")
+            println("n: ${hausObjekt.nettoMieteKaltGewerbe} ${objektListe[index].geldTyp}")
 
         if (hausObjekt.nettoMieteIstJahr != 0.00)
             println("Bad: ${hausObjekt.nettoMieteIstJahr} ${objektListe[index].geldTyp}")
