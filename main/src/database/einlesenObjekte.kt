@@ -1,7 +1,7 @@
 package klassen.utils.database
 import klassen.*
 
-fun einlesenObjekte(): MutableList<Immo> {
+fun einlesenObjekte(): List<Immo> {
 
     var objekte = mutableListOf<Immo>()
 
