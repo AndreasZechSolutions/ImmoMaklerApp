@@ -16,7 +16,7 @@ val mwst = "MwSt."
 
 fun main() {
 
-    ausgabeKonsoleObjekte(0, objektListe)
+    ausgabeKonsoleObjekte(0, objektListe) // Testphase
 
     eingabeLoginRegistrierung()
 
