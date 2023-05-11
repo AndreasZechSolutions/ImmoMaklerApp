@@ -25,7 +25,7 @@ class Mikroapartment(
     linkExpose: String = "",
     linkImages: String = "",
     objektTyp: String = "Wohnung",
-    whgTyp: String = "Mehrfamilienhaus",
+    whgTyp: String = "Mikroapartment",
     objektTitel: String = "",
     objektText: String = "",
     renovierung: String = "",
@@ -79,5 +79,4 @@ class Mikroapartment(
     wohnGeld,
     wohnflaeche,
     nutzFlaeche,) {
-
 }
