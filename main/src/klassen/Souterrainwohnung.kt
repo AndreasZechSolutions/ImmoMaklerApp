@@ -25,6 +25,9 @@ class Souterrainwohnung(
     linkExpose: String = "",
     linkImages: String = "",
     objektTyp: String = "Wohnung",
+    whgTyp: String = "Souterrainwohnung",
+    objektTitel: String = "",
+    objektText: String = "",
     renovierung: String = "",
     zimmer: String = "",
     raumHoehe: String = "",
@@ -36,10 +39,6 @@ class Souterrainwohnung(
     wohnGeld: String = "",
     wohnflaeche: String = "",
     nutzFlaeche: String = "",
-
-    var whgTyp: String = "Souterrainwohnung",
-    var objektTitel: String = "",
-    var objektText: String = "",
 
 ): Whg(
     immoId,
@@ -66,6 +65,9 @@ class Souterrainwohnung(
     linkExpose,
     linkImages,
     objektTyp,
+    whgTyp,
+    objektTitel,
+    objektText,
     renovierung,
     zimmer,
     raumHoehe,

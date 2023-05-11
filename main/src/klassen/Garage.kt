@@ -24,10 +24,10 @@ class Garage(
     region: Land,
     linkExpose: String = "",
     linkImages: String = "",
+    objektTyp: String = "Garage",
+    objektTitel: String = "",
+    objektText: String = "",
 
-    var objektTyp: String = "Garage",
-    var objektTitel: String = "",
-    var objektText: String = "",
     var garageTyp: GaragenTyp,
     var garageArt: GaragenArt,
     var garageTor: GaragenTor,
@@ -56,5 +56,10 @@ class Garage(
     kreis,
     bundesland,
     region,
-    linkExpose,linkImages) {
+    linkExpose,
+    linkImages,
+    objektTyp,
+    objektTitel,
+    objektText,
+    ) {
 }

@@ -27,6 +27,9 @@ class Villa(
     linkExpose: String = "",
     linkImages: String = "",
     objektTyp: String = "Haus",
+    hausTyp: String = "Villa",
+    objektTitel: String = "",
+    objektText: String = "",
     renovierung: String = "",
     zimmer: String = "",
     raumHoehe: String = "",
@@ -41,10 +44,6 @@ class Villa(
     nettoMieteKaltGewerbe: Double = 0.0,
     nettoMieteIstJahr: Double = 0.0,
     nettoMieteSollJahr: Double = 0.0,
-
-    var hausTyp: String = "Villa",
-    var objektTitel: String = "",
-    var objektText: String = "",
 
     ): Haus(
     immoId,
@@ -71,6 +70,9 @@ class Villa(
     linkExpose,
     linkImages,
     objektTyp,
+    hausTyp,
+    objektTitel,
+    objektText,
     renovierung,
     zimmer,
     raumHoehe,

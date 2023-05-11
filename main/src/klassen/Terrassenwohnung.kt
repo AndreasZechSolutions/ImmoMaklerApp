@@ -25,6 +25,9 @@ class Terrassenwohnung(
     linkExpose: String = "",
     linkImages: String = "",
     objektTyp: String = "Wohnung",
+    whgTyp: String = "Terrassenwohnung",
+    objektTitel: String = "",
+    objektText: String = "",
     renovierung: String = "",
     zimmer: String = "",
     raumHoehe: String = "",
@@ -36,10 +39,6 @@ class Terrassenwohnung(
     wohnGeld: String = "",
     wohnflaeche: String = "",
     nutzFlaeche: String = "",
-
-    var whgTyp: String = "Souterrainwohnung",
-    var objektTitel: String = "",
-    var objektText: String = "",
 
     ): Whg(
     immoId,
@@ -66,6 +65,9 @@ class Terrassenwohnung(
     linkExpose,
     linkImages,
     objektTyp,
+    whgTyp,
+    objektTitel,
+    objektText,
     renovierung,
     zimmer,
     raumHoehe,

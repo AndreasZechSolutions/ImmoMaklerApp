@@ -37,10 +37,6 @@ class Einliegerwohnung(
     wohnflaeche: String = "",
     nutzFlaeche: String = "",
 
-    var whgTyp: String = "Einliegerwohnung",
-    var objektTitel: String = "",
-    var objektText: String = "",
-
     ): Whg(
     immoId,
     objektNr,

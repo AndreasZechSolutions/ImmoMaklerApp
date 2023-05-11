@@ -27,6 +27,9 @@ class Zweifamilien(
     linkExpose: String = "",
     linkImages: String = "",
     objektTyp: String = "Haus",
+    hausTyp: String = "Zweifamilienhaus",
+    objektTitel: String = "",
+    objektText: String = "",
     renovierung: String = "",
     zimmer: String = "",
     raumHoehe: String = "",
@@ -41,10 +44,6 @@ class Zweifamilien(
     nettoMieteKaltGewerbe: Double = 0.0,
     nettoMieteIstJahr: Double = 0.0,
     nettoMieteSollJahr: Double = 0.0,
-
-    var hausTyp: String = "Zweifamilienhaus",
-    var objektTitel: String = "",
-    var objektText: String = "",
 
     ): Haus(
     immoId,
@@ -71,6 +70,9 @@ class Zweifamilien(
     linkExpose,
     linkImages,
     objektTyp,
+    hausTyp,
+    objektTitel,
+    objektText,
     renovierung,
     zimmer,
     raumHoehe,

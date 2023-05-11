@@ -25,6 +25,9 @@ class Apartment(
     linkExpose: String = "",
     linkImages: String = "",
     objektTyp: String = "Wohnung",
+    whgTyp: String = "Apartment",
+    objektTitel: String = "",
+    objektText: String = "",
     renovierung: String = "",
     zimmer: String = "",
     raumHoehe: String = "",
@@ -36,10 +39,6 @@ class Apartment(
     wohnGeld: String = "",
     wohnflaeche: String = "",
     nutzFlaeche: String = "",
-
-    var whgTyp: String = "Apartment",
-    var objektTitel: String = "",
-    var objektText: String = "",
 
     ): Whg(
     immoId,
@@ -66,6 +65,9 @@ class Apartment(
     linkExpose,
     linkImages,
     objektTyp,
+    whgTyp,
+    objektTitel,
+    objektText,
     renovierung,
     zimmer,
     raumHoehe,

@@ -27,6 +27,9 @@ class Energiespar(
     linkExpose: String = "",
     linkImages: String = "",
     objektTyp: String = "Haus",
+    hausTyp: String = "Einliegerhaus",
+    objektTitel: String = "",
+    objektText: String = "",
     renovierung: String = "",
     zimmer: String = "",
     raumHoehe: String = "",
@@ -41,10 +44,6 @@ class Energiespar(
     nettoMieteKaltGewerbe: Double = 0.0,
     nettoMieteIstJahr: Double = 0.0,
     nettoMieteSollJahr: Double = 0.0,
-
-    var hausTyp: String = "Massivhaus",
-    var objektTitel: String = "",
-    var objektText: String = "",
 
     ): Haus(
     immoId,
@@ -71,6 +70,9 @@ class Energiespar(
     linkExpose,
     linkImages,
     objektTyp,
+    hausTyp,
+    objektTitel,
+    objektText,
     renovierung,
     zimmer,
     raumHoehe,

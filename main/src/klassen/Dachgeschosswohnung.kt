@@ -25,6 +25,9 @@ class Dachgeschosswohnung(
     linkExpose: String = "",
     linkImages: String = "",
     objektTyp: String = "Wohnung",
+    whgTyp: String = "Dachgeschosswohnung",
+    objektTitel: String = "",
+    objektText: String = "",
     renovierung: String = "",
     zimmer: String = "",
     raumHoehe: String = "",
@@ -36,10 +39,6 @@ class Dachgeschosswohnung(
     wohnGeld: String = "",
     wohnflaeche: String = "",
     nutzFlaeche: String = "",
-
-    var whgTyp: String = "Dachgeschosswohnung",
-    var objektTitel: String = "",
-    var objektText: String = "",
 
     ): Whg(
     immoId,
@@ -66,6 +65,9 @@ class Dachgeschosswohnung(
     linkExpose,
     linkImages,
     objektTyp,
+    whgTyp,
+    objektTitel,
+    objektText,
     renovierung,
     zimmer,
     raumHoehe,

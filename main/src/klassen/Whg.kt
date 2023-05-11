@@ -1,6 +1,5 @@
 package klassen
 
-
 open class Whg(
     immoId: Int = 0,
     objektNr: String = "",
@@ -25,8 +24,11 @@ open class Whg(
     region: Land,
     linkExpose: String = "",
     linkImages: String = "",
+    objektTyp: String = "Wohnung",
+    whgTyp: String = "",
+    objektTitel: String = "",
+    objektText: String = "",
 
-    var objektTyp: String = "Wohnung",
     var renovierung: String = "",
     var zimmer: String = "",
     var raumHoehe: String = "",
@@ -66,5 +68,10 @@ open class Whg(
     bundesland,
     region,
     linkExpose,
-    linkImages,) {
+    linkImages,
+    objektTyp,
+    whgTyp,
+    objektTitel,
+    objektText,
+    ) {
 }

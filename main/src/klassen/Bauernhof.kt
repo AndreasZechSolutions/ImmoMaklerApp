@@ -27,6 +27,9 @@ class Bauernhof(
     linkExpose: String = "",
     linkImages: String = "",
     objektTyp: String = "Haus",
+    hausTyp: String = "Bauernhof",
+    objektTitel: String = "",
+    objektText: String = "",
     renovierung: String = "",
     zimmer: String = "",
     raumHoehe: String = "",
@@ -42,9 +45,6 @@ class Bauernhof(
     nettoMieteIstJahr: Double = 0.0,
     nettoMieteSollJahr: Double = 0.0,
 
-    var hausTyp: String = "Bauernhof",
-    var objektTitel: String = "",
-    var objektText: String = "",
 
     ): Haus(
     immoId,
@@ -71,6 +71,9 @@ class Bauernhof(
     linkExpose,
     linkImages,
     objektTyp,
+    hausTyp,
+    objektTitel,
+    objektText,
     renovierung,
     zimmer,
     raumHoehe,
@@ -84,5 +87,6 @@ class Bauernhof(
     nettoMieteKaltWohnen,
     nettoMieteKaltGewerbe,
     nettoMieteIstJahr,
-    nettoMieteSollJahr,) {
+    nettoMieteSollJahr,
+    ) {
 }

@@ -25,6 +25,9 @@ class Penthouse(
     linkExpose: String = "",
     linkImages: String = "",
     objektTyp: String = "Wohnung",
+    whgTyp: String = "Penthouse",
+    objektTitel: String = "",
+    objektText: String = "",
     renovierung: String = "",
     zimmer: String = "",
     raumHoehe: String = "",
@@ -36,10 +39,6 @@ class Penthouse(
     wohnGeld: String = "",
     wohnflaeche: String = "",
     nutzFlaeche: String = "",
-
-    var whgTyp: String = "Penthouse",
-    var objektTitel: String = "",
-    var objektText: String = "",
 
     ): Whg(
     immoId,
@@ -66,6 +65,9 @@ class Penthouse(
     linkExpose,
     linkImages,
     objektTyp,
+    whgTyp,
+    objektTitel,
+    objektText,
     renovierung,
     zimmer,
     raumHoehe,
@@ -76,6 +78,7 @@ class Penthouse(
     stellplatz,
     wohnGeld,
     wohnflaeche,
-    nutzFlaeche,) {
+    nutzFlaeche,
+    ) {
 
 }

@@ -24,10 +24,10 @@ class Grund(
     region: Land,
     linkExpose: String = "",
     linkImages: String = "",
+    objektTyp: String = "Grundstück",
+    objektTitel: String = "",
+    objektText: String = "",
 
-    var objektTyp: String = "Grundstück",
-    var objektTitel: String = "",
-    var objektText: String = "",
     var breite: Double = 0.0,
     var laenge: Double = 0.0
 
@@ -54,5 +54,9 @@ class Grund(
     bundesland,
     region,
     linkExpose,
-    linkImages) {
+    linkImages,
+    objektTyp,
+    objektTitel,
+    objektText,
+    ) {
 }

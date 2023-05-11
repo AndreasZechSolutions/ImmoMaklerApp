@@ -26,6 +26,9 @@ open class Haus(
     linkExpose: String = "",
     linkImages: String = "",
     objektTyp: String = "Haus",
+    hausTyp: String = "",
+    objektTitel: String = "",
+    objektText: String = "",
 
     var renovierung: String = "",
     var zimmer: String = "",
@@ -41,6 +44,7 @@ open class Haus(
     var nettoMieteKaltGewerbe: Double = 0.0,
     var nettoMieteIstJahr: Double = 0.0,
     var nettoMieteSollJahr: Double = 0.0,
+
 
     ): Immo(
     immoId,
@@ -67,5 +71,8 @@ open class Haus(
     linkExpose,
     linkImages,
     objektTyp,
+    hausTyp,
+    objektTitel,
+    objektText,
     ) {
 }

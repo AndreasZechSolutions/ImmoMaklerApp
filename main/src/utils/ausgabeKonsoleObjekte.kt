@@ -58,10 +58,57 @@ fun ausgabeKonsoleObjekte(index: Int, objektListe: List<Immo>)  {
     if(objektListe[index].linkImages != "")
         println("Bilder: ${objektListe[index].linkImages} ")
 
+    if(objektListe[index].objektTitel != "")
+        println("Haustyp: ${objektListe[index].objektTitel} ")
+
+    if(objektListe[index].objektText != "")
+        println("Haustyp: ${objektListe[index].objektText} ")
+
     if (objektListe[index].objektTyp == "Haus") {
         var hausObjekt: Haus = objektListe[index] as Haus
         if (hausObjekt.renovierung != "")
-            println("Bilder: ${hausObjekt.renovierung} ")
+            println("Renovierung: ${hausObjekt.renovierung} ")
+
+        if (hausObjekt.zimmer != "")
+            println("Zimmer: ${hausObjekt.zimmer} ")
+
+        if (hausObjekt.raumHoehe != "")
+            println("Raumhöhe: ${hausObjekt.raumHoehe} ")
+
+        if (hausObjekt.lageImHaus != "")
+            println("Raumhöhe: ${hausObjekt.lageImHaus} ")
+
+        if (hausObjekt.bad != "")
+            println("Bad: ${hausObjekt.bad} ")
+
+        if (hausObjekt.kueche != "")
+            println("Bad: ${hausObjekt.kueche} ")
+
+        if (hausObjekt.keller != "")
+            println("Bad: ${hausObjekt.keller} ")
+
+        if (hausObjekt.heizungsArt != "")
+            println("Bad: ${hausObjekt.heizungsArt} ")
+
+        if (hausObjekt.heizungsArt != "")
+            println("Bad: ${hausObjekt.heizungsArt} ")
+
+        if (hausObjekt.garten != "")
+            println("Bad: ${hausObjekt.garten} ")
+
+        if (hausObjekt.stellPlatz != "")
+            println("Bad: ${hausObjekt.stellPlatz} ")
+
+        if (hausObjekt.nettoMieteKaltGewerbe != 0.00)
+            println("Bad: ${hausObjekt.nettoMieteKaltGewerbe} ")
+
+        if (hausObjekt.nettoMieteIstJahr != 0.00)
+            println("Bad: ${hausObjekt.nettoMieteIstJahr} ")
+
+        if (hausObjekt.nettoMieteSollJahr != 0.00)
+            println("Bad: ${hausObjekt.nettoMieteSollJahr} ")
+
+
     }
 }
 
