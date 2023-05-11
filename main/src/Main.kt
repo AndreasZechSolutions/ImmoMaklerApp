@@ -1,8 +1,5 @@
 package klassen.utils.database
-
-import klassen.*
 import utils.*
-import database.*
 
 // Globale Variablen
 var maklerIndex = 0

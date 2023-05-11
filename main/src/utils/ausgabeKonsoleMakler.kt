@@ -1,5 +1,4 @@
 package utils
-
 import klassen.*
 
 fun ausgabeKonsoleMakler(index: Int, maklerListe: List<Makler>) {
