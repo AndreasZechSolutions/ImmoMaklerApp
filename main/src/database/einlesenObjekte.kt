@@ -1,4 +1,5 @@
 package database
+
 import klassen.*
 
 fun einlesenObjekte(): MutableList<Immo> {
@@ -31,6 +32,9 @@ fun einlesenObjekte(): MutableList<Immo> {
             "",
             "",
             "Haus",
+            "Einfamilienhaus",
+            "Stylisches Haus in Alt Ruppin",
+            "",
             "2018",
             "3 Zimmer",
             "zwischen ca. 2,60 m bis 3,80 m",
@@ -45,9 +49,6 @@ fun einlesenObjekte(): MutableList<Immo> {
             0.00,
             0.00,
             0.00,
-            "Einfamilienhaus",
-            "Stylisches Haus in Alt Ruppin",
-            "",
         )
     )
 
@@ -78,6 +79,9 @@ fun einlesenObjekte(): MutableList<Immo> {
             "",
             "",
             "Haus",
+            "Mehrfamilienhaus",
+            "Mehrfamilienhaus in ruhiger Parklage",
+            "",
             "",
             "",
             "",
@@ -92,9 +96,6 @@ fun einlesenObjekte(): MutableList<Immo> {
             0.00,
             18276.00,
             23940.00,
-            "Mehrfamilienhaus",
-            "Mehrfamilienhaus in ruhiger Parklage",
-            "",
         )
     )
 
@@ -124,6 +125,9 @@ fun einlesenObjekte(): MutableList<Immo> {
             "",
             "",
             "Haus",
+            "Mehrfamilienhaus",
+            "Repräsentative Luxuswohnung",
+            "Perfekte Citywohnung mit Designerküche, Balkon und Stellplatz in 1A Kiez nördlich der Torstraße. Diese Wohnung kann als Kapitalanlage oder als private Cityresidenz erworben werden.",
             "",
             "2 Zimmer",
             "3,00 m",
@@ -138,9 +142,6 @@ fun einlesenObjekte(): MutableList<Immo> {
             0.00,
             0.00,
             0.00,
-            "Mehrfamilienhaus",
-            "Repräsentative Luxuswohnung",
-            "Perfekte Citywohnung mit Designerküche, Balkon und Stellplatz in 1A Kiez nördlich der Torstraße. Diese Wohnung kann als Kapitalanlage oder als private Cityresidenz erworben werden.",
         )
     )
     return objekte
