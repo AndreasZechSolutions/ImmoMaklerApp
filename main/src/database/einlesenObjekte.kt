@@ -1,12 +1,14 @@
 package klassen.utils.database.utils
+
 import klassen.*
 
 fun einlesenObjekte(): List<Immo> {
 
-    var objekte = mutableListOf<Immo>()
+    val objekte = mutableListOf<Immo>()
 
 
-        objekte.add(0, Einfamilien(
+    objekte.add(
+        0, Einfamilien(
             1,
             "BBI-1",
             ObjektArt.Altbau,
@@ -48,10 +50,12 @@ fun einlesenObjekte(): List<Immo> {
             "Einfamilienhaus",
             "Stylisches Haus in Alt Ruppin",
             "",
-        ))
+        )
+    )
 
 
-        objekte.add(1, Mehrfamilien(
+    objekte.add(
+        1, Mehrfamilien(
             2,
             "BBI-2",
             ObjektArt.Altbau,
@@ -93,50 +97,53 @@ fun einlesenObjekte(): List<Immo> {
             "Mehrfamilienhaus",
             "Mehrfamilienhaus in ruhiger Parklage",
             "",
-        ))
+        )
+    )
 
-    objekte.add(2, Mehrfamilien(
-        3,
-        "BBI-3",
-        ObjektArt.Neubau,
-        "2010",
-        84.00,
-        607050.00,
-        Waehrung.EUR,
-        3.57,
-        19,
-        ImmoTyp.Kauf,
-        ImmoArt.Privat,
-        Dach.Satteldach,
-        Heizung.Gas,
-        EnergieAusweis.inVorbereitung,
-        "",
-        "",
-        "nach Auszug der Untermieterin",
-        "",
-        "",
-        BlandAbk.BB,
-        Land.Deutschland,
-        "",
-        "",
-        "Haus",
-        "",
-        "2 Zimmer",
-        "3,00 m",
-        "3 OG",
-        "1 mod. Bad, 1 Gäste WC",
-        "",
-        "",
-        "Zentral, Fußbodenheizung",
-        "",
-        "Ja, 35.000 EUR",
-        0.00,
-        0.00,
-        0.00,
-        0.00,
-        "Mehrfamilienhaus",
-        "Repräsentative Luxuswohnung",
-        "Perfekte Citywohnung mit Designerküche, Balkon und Stellplatz in 1A Kiez nördlich der Torstraße. Diese Wohnung kann als Kapitalanlage oder als private Cityresidenz erworben werden.",
-    ))
+    objekte.add(
+        2, Mehrfamilien(
+            3,
+            "BBI-3",
+            ObjektArt.Neubau,
+            "2010",
+            84.00,
+            607050.00,
+            Waehrung.EUR,
+            3.57,
+            19,
+            ImmoTyp.Kauf,
+            ImmoArt.Privat,
+            Dach.Satteldach,
+            Heizung.Gas,
+            EnergieAusweis.inVorbereitung,
+            "",
+            "",
+            "nach Auszug der Untermieterin",
+            "",
+            "",
+            BlandAbk.BB,
+            Land.Deutschland,
+            "",
+            "",
+            "Haus",
+            "",
+            "2 Zimmer",
+            "3,00 m",
+            "3 OG",
+            "1 mod. Bad, 1 Gäste WC",
+            "",
+            "",
+            "Zentral, Fußbodenheizung",
+            "",
+            "Ja, 35.000 EUR",
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            "Mehrfamilienhaus",
+            "Repräsentative Luxuswohnung",
+            "Perfekte Citywohnung mit Designerküche, Balkon und Stellplatz in 1A Kiez nördlich der Torstraße. Diese Wohnung kann als Kapitalanlage oder als private Cityresidenz erworben werden.",
+        )
+    )
     return objekte
 }
