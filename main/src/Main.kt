@@ -23,8 +23,6 @@ fun main() {
 
     anlegenInteressent(interessentIndex)
 
-    eingabeLoginRegistrierung()
-
     var auswahl: Int
 
     while(wahr){
