@@ -1,5 +1,6 @@
 package klassen.utils.database.utils
 
-fun login() {
+fun login(): Boolean {
 
+    return false
 }

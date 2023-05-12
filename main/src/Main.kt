@@ -6,6 +6,8 @@ import database.einlesenObjekte
 import klassen.Immo
 import klassen.Interessenten
 import klassen.utils.database.utils.anzeigenAllerObjekte
+import klassen.utils.database.utils.login
+import klassen.utils.database.utils.registrieren
 import utils.*
 
 // Globale Variablen
@@ -28,8 +30,8 @@ fun main() {
     while(wahr){
         auswahl = eingabeLoginRegistrierung()
         when(auswahl){
-            1 -> wahr = false
-            2 -> wahr = false
+            1 -> wahr = login()
+            2 -> wahr = registrieren()
         }
 
     }
@@ -38,7 +40,8 @@ fun main() {
         auswahl = eingabeKonsole()
         when(auswahl){
             1 -> anzeigenAllerObjekte(0,objektListe.size-1, objektListe)
-            2 -> ausgabeKonsoleMakler(maklerIndex, maklerListe)
+            2 -> wahr = false
+            3 -> ausgabeKonsoleMakler(maklerIndex, maklerListe)
         }
     }
 }

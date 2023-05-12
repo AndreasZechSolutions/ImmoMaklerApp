@@ -18,7 +18,7 @@ fun eingabeKonsole(): Int {
         if (zahl != null) {
             if (zahl < 0)
                 zahl = null
-            else if (zahl > 2)
+            else if (zahl > 3)
                 zahl = null
         }
     }

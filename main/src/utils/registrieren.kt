@@ -1,5 +1,6 @@
 package klassen.utils.database.utils
 
-fun registrieren() {
+fun registrieren(): Boolean {
 
+    return false
 }
