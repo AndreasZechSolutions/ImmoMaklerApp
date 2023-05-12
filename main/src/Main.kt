@@ -41,11 +41,13 @@ fun main() {
     while(wahr){
         auswahl = eingabeKonsole()
         when(auswahl){
-            1 -> anzeigenAllerObjekte(0,objektListe.size-1, objektListe)
-            2 -> anzeigenObjekteHaus(0, objektListe.size-1, objektListe)
-            3 -> anzeigenObjekteWhg(0, objektListe.size-1, objektListe)
-            4 -> wahr = false
-            5 -> ausgabeKonsoleMakler(maklerIndex, maklerListe)
+            1 -> anzeigenAllerObjekte(0,objektListe.size, objektListe)
+            2 -> anzeigenObjekteHaus(0, objektListe.size, objektListe)
+            3 -> anzeigenObjekteWhg(0, objektListe.size, objektListe)
+            4 -> anzeigenObjekteGarge(0, objektListe.size, objektListe)
+            5 -> anzeigenObjekteGrund(0, objektListe.size, objektListe)
+            6 -> wahr = false
+            7 -> ausgabeKonsoleMakler(maklerIndex, maklerListe)
         }
     }
 }
