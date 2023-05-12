@@ -26,10 +26,10 @@ open class Haus(
     linkExpose: String = "",
     linkImages: String = "",
     objektTyp: String = "Haus",
-    hausTyp: String = "",
     objektTitel: String = "",
     objektText: String = "",
 
+    var hausTyp: String = "",
     var renovierung: String = "",
     var zimmer: String = "",
     var raumHoehe: String = "",
@@ -71,7 +71,6 @@ open class Haus(
     linkExpose,
     linkImages,
     objektTyp,
-    hausTyp,
     objektTitel,
     objektText,
     ) {

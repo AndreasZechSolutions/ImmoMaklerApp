@@ -1,5 +1,7 @@
 package klassen
 
+
+
 open class Whg(
     immoId: Int = 0,
     objektNr: String = "",
@@ -25,10 +27,10 @@ open class Whg(
     linkExpose: String = "",
     linkImages: String = "",
     objektTyp: String = "Wohnung",
-    whgTyp: String = "",
     objektTitel: String = "",
     objektText: String = "",
 
+    var whgTyp: String = "",
     var renovierung: String = "",
     var zimmer: String = "",
     var raumHoehe: String = "",
@@ -70,7 +72,6 @@ open class Whg(
     linkExpose,
     linkImages,
     objektTyp,
-    whgTyp,
     objektTitel,
     objektText,
     ) {

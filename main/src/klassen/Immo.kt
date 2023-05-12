@@ -25,7 +25,6 @@ open class Immo(
     var linkExpose: String = "",
     var linkImages: String = "",
     var objektTyp: String = "",
-    var hausTyp: String = "",
     var objektTitel: String = "",
     var objektText: String = "",
 ) {
