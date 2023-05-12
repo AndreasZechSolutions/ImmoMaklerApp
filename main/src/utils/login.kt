@@ -18,7 +18,7 @@ fun login(interessentenListe: MutableList<Interessenten>): Boolean {
 
 
 
-        if(index == 0)
+        if(interessentenListe.isNotEmpty() && interessentenListe.size < 2)
             if((interessentenListe[index].email == email) && (interessentenListe[index].passwort == passwort))
                 statusLogin = true
             else
