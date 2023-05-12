@@ -11,7 +11,7 @@ fun registrieren(liste: MutableList<Interessenten>): MutableList<Interessenten> 
     var statusLogin = false
     var email = ""
     var passwort = ""
-/*
+
     while(!statusLogin) {
         print("\nDeine E-Mail Adresse: ")
         email = readln()
@@ -19,8 +19,7 @@ fun registrieren(liste: MutableList<Interessenten>): MutableList<Interessenten> 
         passwort = readln()
         }
 
-    return listen
- */
+    return listeInteressenten
 }
 
 
