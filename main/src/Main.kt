@@ -45,7 +45,7 @@ fun main() {
         auswahl = eingabeKonsole()
         when(auswahl){
             1 -> anzeigenAllerObjekte(0,objektListe.size-1, objektListe)
-            2 -> anzeigenSucheObjekte(objektListe)
+            2 ->
             3 -> wahr = false
             4 -> ausgabeKonsoleMakler(maklerIndex, maklerListe)
         }

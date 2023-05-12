@@ -1,12 +1,15 @@
-package utils
+package klassen.utils.database.utils
 
-fun eingabeKonsole(): Int {
+import utils.ausgabeKonsole
+import utils.ausgabeKonsoleSuche
+
+fun eingabeKonsoleSuche(): Int {
 
     var zahl: Int? = null
 
     while(zahl == null){
-       ausgabeKonsoleMenu()
-       print("Wähle ein Zahl: ")
+        ausgabeKonsoleSuche()
+        print("Wähle ein Zahl: ")
 
         try {
             zahl = readln().toInt()
@@ -18,7 +21,7 @@ fun eingabeKonsole(): Int {
         if (zahl != null) {
             if (zahl < 0)
                 zahl = null
-            else if (zahl > 5)
+            else if (zahl > 2)
                 zahl = null
         }
     }
