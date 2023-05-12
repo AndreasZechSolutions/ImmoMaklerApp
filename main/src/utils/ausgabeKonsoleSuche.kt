@@ -6,6 +6,6 @@ fun ausgabeKonsoleSuche() {
             "Auswahl\n" +
             "=======\n\n" +
             "1. Haus\n" +
-            "2. Wohnung\n" +
+            "2. Wohnung\n"
     )
 }
