@@ -1,5 +1,6 @@
 package klassen.utils.database.utils
-import klassen.*
+import klassen.Immo
+import klassen.Whg
 import klassen.utils.database.Haus
 import klassen.utils.database.qm
 
@@ -108,6 +109,7 @@ fun ausgabeKonsoleObjekte(index: Int, objektListe: List<Immo>)  {
         if (hausObjekt.nettoMieteSollJahr != 0.00)
             println("Bad: ${hausObjekt.nettoMieteSollJahr} ${objektListe[index].geldTyp}")
     }
+
     if (objektListe[index].objektTyp == "Wohnung") {
         val whgObjekt: Whg = objektListe[index] as Whg
 

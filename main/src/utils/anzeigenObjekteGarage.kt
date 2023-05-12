@@ -8,7 +8,7 @@ fun anzeigenObjekteGarage(min: Int, max: Int, objektListe: List<Immo>) {
         if(objektListe[i].objektTyp == "Garage")
             ausgabeKonsoleObjekte(i, objektListe)
         else
-            println("Sorry, wir haben aktuell keine Häuser im Portfolio.")
+            println("Sorry, wir haben aktuell keine Garagen im Portfolio.")
         for (i in 1..2)
             println()
         if(i < max) {
