@@ -6,7 +6,7 @@ fun ausgabeKonsoleMenu() {
             "Auswahl\n" +
             "=======\n\n" +
             "1. Alle Objekte\n" +
-            "2. Programm beenden" +
+            "2. Programm beenden\n" +
             "3. Impressum\n"
     )
 }
