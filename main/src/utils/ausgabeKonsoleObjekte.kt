@@ -62,10 +62,10 @@ fun ausgabeKonsoleObjekte(index: Int, objektListe: List<Immo>)  {
         println("Bilder: ${objektListe[index].linkImages} ")
 
     if(objektListe[index].objektTitel != "")
-        println("Haustyp: ${objektListe[index].objektTitel} ")
+        println("Titel: ${objektListe[index].objektTitel} ")
 
     if(objektListe[index].objektText != "")
-        println("Haustyp: ${objektListe[index].objektText} ")
+        println("Beschreibung: ${objektListe[index].objektText} ")
 
     if (objektListe[index].objektTyp == "Haus") {
         val hausObjekt: Haus = objektListe[index] as Haus
