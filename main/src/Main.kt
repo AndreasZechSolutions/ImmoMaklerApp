@@ -1,7 +1,10 @@
 package klassen.utils.database
+import database.anlegenInteressent
 import database.anlegenMakler
 import klassen.utils.database.utils.eingabeLoginRegistrierung
 import database.einlesenObjekte
+import klassen.Immo
+import klassen.Interessenten
 import klassen.utils.database.utils.anzeigenAllerObjekte
 import utils.*
 
@@ -14,8 +17,11 @@ fun main() {
     var maklerListe = anlegenMakler(maklerIndex)
     var objektIndex = 0
     var objektListe = einlesenObjekte()
+    var interessentIndex = 0
+    var merkListe = mutableListOf<Interessenten>()
     var wahr = true
 
+    anlegenInteressent(interessentIndex)
     eingabeLoginRegistrierung()
 
     var auswahl: Int
