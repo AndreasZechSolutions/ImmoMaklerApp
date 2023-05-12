@@ -1,4 +1,6 @@
-package utils
+package klassen.utils.database.utils
+
+import utils.ausgabeKonsoleMenu
 
 fun eingabeKonsole(): Int {
 

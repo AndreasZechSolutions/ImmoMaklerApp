@@ -1,4 +1,5 @@
-package utils
+package klassen.utils.database.utils
+
 
 fun ausgabeKonsole(text: String){
 

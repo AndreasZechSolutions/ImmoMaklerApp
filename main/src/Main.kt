@@ -5,7 +5,7 @@ import database.einlesenObjekte
 import klassen.Interessenten
 import klassen.utils.database.utils.*
 import utils.ausgabeKonsoleMakler
-import utils.eingabeKonsole
+
 
 // Globale Variablen
 const val qm = "m²"

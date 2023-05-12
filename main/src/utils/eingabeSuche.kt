@@ -1,6 +1,5 @@
 package klassen.utils.database.utils
 
-import utils.ausgabeKonsole
 import utils.ausgabeKonsoleSuche
 
 fun eingabeKonsoleSuche(): Int {

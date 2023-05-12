@@ -1,5 +1,4 @@
 package klassen.utils.database.utils
-import utils.ausgabeKonsole
 
 fun eingabeLoginRegistrierung(): Int {
 
