@@ -20,6 +20,7 @@ fun main() {
     var objektIndex = 0
     var objektListe = einlesenObjekte()
     var interessentIndex = 0
+    var interessentenListe = anlegenInteressent(interessentIndex)
     var merkListe = mutableListOf<Interessenten>()
 
     anlegenInteressent(interessentIndex)
@@ -30,7 +31,7 @@ fun main() {
     while(wahr){
         auswahl = eingabeLoginRegistrierung()
         when(auswahl){
-            1 -> wahr = login()
+            1 -> wahr = login(interessentenListe)
             2 -> wahr = registrieren()
         }
 
