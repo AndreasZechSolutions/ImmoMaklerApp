@@ -19,21 +19,21 @@ fun main() {
     var objektListe = einlesenObjekte()
     var interessentIndex = 0
     var merkListe = mutableListOf<Interessenten>()
-    var wahr = true
 
     anlegenInteressent(interessentIndex)
 
     var auswahl: Int
 
+    var wahr = true
     while(wahr){
         auswahl = eingabeLoginRegistrierung()
         when(auswahl){
-            1 -> println("")
-            2 -> println("")
+            1 -> wahr = false
+            2 -> wahr = false
         }
-        wahr = false
-    }
 
+    }
+    wahr = true
     while(wahr){
         auswahl = eingabeKonsole()
         when(auswahl){
