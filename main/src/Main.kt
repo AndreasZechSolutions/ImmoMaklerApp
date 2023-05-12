@@ -2,7 +2,6 @@ package klassen.utils.database
 import database.anlegenInteressent
 import database.anlegenMakler
 import database.einlesenObjekte
-import database.registrieren
 import klassen.Interessenten
 import klassen.utils.database.utils.anzeigenAllerObjekte
 import klassen.utils.database.utils.eingabeLoginRegistrierung
@@ -13,6 +12,9 @@ import utils.eingabeKonsole
 // Globale Variablen
 const val qm = "m²"
 const val mwSt = "MwSt."
+
+var kontoId = 0
+
 
 fun main() {
     var maklerIndex = 0
@@ -33,7 +35,7 @@ fun main() {
         if(auswahl == 1)
             wahr = login(interessentenListe)
         else if (auswahl == 2) {
-            interessentenListe = registrieren(interessentenListe)
+            // interessentenListe = registrieren(interessentenListe)
             wahr = false
         }
     }

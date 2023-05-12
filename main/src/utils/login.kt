@@ -1,6 +1,7 @@
 package klassen.utils.database.utils
 
 import klassen.Interessenten
+import klassen.utils.database.kontoId
 
 fun login(interessentenListe: MutableList<Interessenten>): Boolean {
 
@@ -19,8 +20,10 @@ fun login(interessentenListe: MutableList<Interessenten>): Boolean {
 
 
         if(interessentenListe.isNotEmpty() && interessentenListe.size < 2)
-            if((interessentenListe[index].email == email) && (interessentenListe[index].passwort == passwort))
+            if((interessentenListe[index].email == email) && (interessentenListe[index].passwort == passwort)) {
                 statusLogin = true
+                kontoId = interessentenListe[index].kontoId
+            }
             else
                 print("\nFalsche Eingabe! Neuer Versuch ...")
     }
