@@ -22,9 +22,18 @@ fun main() {
     var wahr = true
 
     anlegenInteressent(interessentIndex)
+
     eingabeLoginRegistrierung()
 
     var auswahl: Int
+
+    while(wahr){
+        auswahl = eingabeLoginRegistrierung()
+        when(auswahl){
+            1 -> println("")
+            2 -> println("")
+        }
+    }
 
     while(wahr){
         auswahl = eingabeKonsole()

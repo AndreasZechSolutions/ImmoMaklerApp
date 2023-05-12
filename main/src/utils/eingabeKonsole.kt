@@ -1,6 +1,6 @@
 package utils
 
-fun eingabeKonsole(): Int{
+fun eingabeKonsole(): Int {
 
     var zahl: Int? = null
 
