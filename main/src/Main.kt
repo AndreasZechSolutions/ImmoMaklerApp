@@ -3,10 +3,7 @@ import database.anlegenInteressent
 import database.anlegenMakler
 import database.einlesenObjekte
 import klassen.Interessenten
-import klassen.utils.database.utils.anzeigenAllerObjekte
-import klassen.utils.database.utils.anzeigenSucheObjekte
-import klassen.utils.database.utils.eingabeLoginRegistrierung
-import klassen.utils.database.utils.login
+import klassen.utils.database.utils.*
 import utils.ausgabeKonsoleMakler
 import utils.eingabeKonsole
 
@@ -45,9 +42,10 @@ fun main() {
         auswahl = eingabeKonsole()
         when(auswahl){
             1 -> anzeigenAllerObjekte(0,objektListe.size-1, objektListe)
-            2 ->
-            3 -> wahr = false
-            4 -> ausgabeKonsoleMakler(maklerIndex, maklerListe)
+            2 -> anzeigenObjekteHaus("Haus", objektListe)
+            3 -> anzeigenObjektWhg("Wohnung", objektListe)
+            4 -> wahr = false
+            5 -> ausgabeKonsoleMakler(maklerIndex, maklerListe)
         }
     }
 }
