@@ -6,6 +6,7 @@ import klassen.Interessenten
 import klassen.utils.database.utils.anzeigenAllerObjekte
 import klassen.utils.database.utils.eingabeLoginRegistrierung
 import klassen.utils.database.utils.login
+import klassen.utils.database.utils.sucheObjekte
 import utils.ausgabeKonsoleMakler
 import utils.eingabeKonsole
 
