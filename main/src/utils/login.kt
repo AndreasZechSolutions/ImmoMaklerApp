@@ -4,6 +4,7 @@ import klassen.Interessenten
 
 fun login(interessentenListe: MutableList<Interessenten>): Boolean {
 
+    var index = 0
     var statusLogin = false
     var email = ""
     var passwort = ""
@@ -12,11 +13,13 @@ fun login(interessentenListe: MutableList<Interessenten>): Boolean {
     while(!statusLogin) {
         print("\nDeine E-Mail Adresse: ")
         email = readln()
-        print("\nDein Passwort")
+        print("\nDein Passwort: ")
         passwort = readln()
 
-        for(i in 0.. interessentenListe.count())
-            if(interessentenListe[i].email == email && interessentenListe[i].passwort == passwort)
+
+
+        if(index == 0)
+            if((interessentenListe[index].email == email) && (interessentenListe[index].passwort == passwort))
                 statusLogin = true
             else
                 print("\nFalsche Eingabe! Neuer Versuch ...")
