@@ -8,5 +8,4 @@ fun ausgabeKonsoleMenu() {
             "1. Alle Objekte\n" +
             "2. Impressum\n"
     )
-
 }
