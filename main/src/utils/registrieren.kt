@@ -1,9 +1,11 @@
 package database
+import klassen.Anrede
 import klassen.Interessenten
+import klassen.KontoTyp
 
 fun registrieren(liste: MutableList<Interessenten>): MutableList<Interessenten>  {
 
-    var interessensListe = liste
+    var listeInteressenten = liste
     var index = 0
     var statusLogin = false
     var email = ""
@@ -14,17 +16,8 @@ fun registrieren(liste: MutableList<Interessenten>): MutableList<Interessenten> 
         email = readln()
         print("\nDein Passwort: ")
         passwort = readln()
+        }
 
-        if(interessensListe.isEmpty())
+    return listen
+    }
 
-            index = 0
-
-
-
-
-
-        index = interessensListe.size
-
-
-    return interessensListe
-}
