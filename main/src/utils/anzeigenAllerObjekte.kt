@@ -5,11 +5,13 @@ import klassen.Immo
 
 fun anzeigenAllerObjekte(min: Int, max: Int, objektListe: List<Immo>) {
 
-    for (i in 0..2) {
+    for (i in min..max) {
         ausgabeKonsoleObjekte(i, objektListe)
-        for (i in 1..4)
+        for (i in 1..2)
             println()
-        println("Drücke eine Enter-/Return-Taste für weiter ...")
-        readln()
+        if(i < max) {
+            println("Drücke eine Enter-/Return-Taste für weiter ...")
+            readln()
+        }
     }
 }

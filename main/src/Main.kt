@@ -29,7 +29,7 @@ fun main() {
     while(wahr){
         auswahl = eingabeKonsole()
         when(auswahl){
-            1 -> anzeigenAllerObjekte(0,2, objektListe)
+            1 -> anzeigenAllerObjekte(0,objektListe.size-1, objektListe)
             2 -> ausgabeKonsoleMakler(maklerIndex, maklerListe)
         }
     }
