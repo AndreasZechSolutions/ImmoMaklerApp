@@ -1,6 +1,11 @@
-package klassen.utils.database.utils
+package database
+import klassen.Interessenten
 
-fun registrieren(): Boolean {
+fun registrieren(liste: MutableList<Interessenten>): MutableList<Interessenten>  {
 
-    return false
+    var interessensListe = liste
+
+
+
+    return interessensListe
 }

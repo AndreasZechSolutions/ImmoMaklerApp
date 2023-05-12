@@ -1,14 +1,14 @@
 package klassen.utils.database
 import database.anlegenInteressent
 import database.anlegenMakler
-import klassen.utils.database.utils.eingabeLoginRegistrierung
 import database.einlesenObjekte
-import klassen.Immo
+import database.registrieren
 import klassen.Interessenten
 import klassen.utils.database.utils.anzeigenAllerObjekte
+import klassen.utils.database.utils.eingabeLoginRegistrierung
 import klassen.utils.database.utils.login
-import klassen.utils.database.utils.registrieren
-import utils.*
+import utils.ausgabeKonsoleMakler
+import utils.eingabeKonsole
 
 // Globale Variablen
 const val qm = "m²"
@@ -30,11 +30,12 @@ fun main() {
     var wahr = true
     while(wahr){
         auswahl = eingabeLoginRegistrierung()
-        when(auswahl){
-            1 -> wahr = login(interessentenListe)
-            2 -> wahr = registrieren()
+        if(auswahl == 1)
+            wahr = login(interessentenListe)
+        else if (auswahl == 2) {
+            interessentenListe = registrieren(interessentenListe)
+            wahr = false
         }
-
     }
     wahr = true
     while(wahr){
