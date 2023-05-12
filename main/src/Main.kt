@@ -42,8 +42,8 @@ fun main() {
         auswahl = eingabeKonsole()
         when(auswahl){
             1 -> anzeigenAllerObjekte(0,objektListe.size-1, objektListe)
-            2 -> anzeigenObjekteHaus(0, objektListe.size-1,"Haus", objektListe)
-            3 -> anzeigenObjektWhg("Wohnung", objektListe)
+            2 -> anzeigenObjekteHaus(0, objektListe.size-1, objektListe)
+            3 -> anzeigenObjekteWhg(0, objektListe.size-1, objektListe)
             4 -> wahr = false
             5 -> ausgabeKonsoleMakler(maklerIndex, maklerListe)
         }

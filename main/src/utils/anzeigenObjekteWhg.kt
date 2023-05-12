@@ -2,7 +2,7 @@ package klassen.utils.database.utils
 
 import klassen.Immo
 
-fun anzeigenObjektWhg(min: Int, max: Int, objektListe: List<Immo>) {
+fun anzeigenObjekteWhg(min: Int, max: Int, objektListe: List<Immo>) {
 
     for (i in min..max) {
         if(objektListe[i].objektTyp == "Wohnung")
