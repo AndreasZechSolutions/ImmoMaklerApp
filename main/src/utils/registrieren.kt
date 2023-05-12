@@ -4,7 +4,7 @@ import klassen.Anrede
 import klassen.Interessenten
 import klassen.KontoTyp
 
-fun registrieren(liste: MutableList<Interessenten>) {
+fun registrieren(liste: MutableList<Interessenten>): MutableList<Interessenten> {
 
     var listeInteressenten = liste
     var index = 0
