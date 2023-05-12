@@ -4,9 +4,9 @@ import database.anlegenMakler
 import database.einlesenObjekte
 import klassen.Interessenten
 import klassen.utils.database.utils.anzeigenAllerObjekte
+import klassen.utils.database.utils.anzeigenSucheObjekte
 import klassen.utils.database.utils.eingabeLoginRegistrierung
 import klassen.utils.database.utils.login
-import klassen.utils.database.utils.sucheObjekte
 import utils.ausgabeKonsoleMakler
 import utils.eingabeKonsole
 
@@ -45,7 +45,7 @@ fun main() {
         auswahl = eingabeKonsole()
         when(auswahl){
             1 -> anzeigenAllerObjekte(0,objektListe.size-1, objektListe)
-            2 -> sucheObjekte(objektListe)
+            2 -> anzeigenSucheObjekte(objektListe)
             3 -> wahr = false
             4 -> ausgabeKonsoleMakler(maklerIndex, maklerListe)
         }
