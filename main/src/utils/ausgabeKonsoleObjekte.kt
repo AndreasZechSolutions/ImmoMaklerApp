@@ -20,6 +20,8 @@ fun ausgabeKonsoleObjekte(index: Int, objektListe: List<Immo>)  {
     if(objektListe[index].preisNetto != 0.00)
         println("Preis Netto: ${objektListe[index].preisNetto} ${objektListe[index].geldTyp}")
 
+    println("Preis pro ${qm}: ${objektListe[index].preisProQm(objektListe[index].gesamtFlaeche,objektListe[index].preisNetto)}")
+
     if(objektListe[index].provision != 0.00)
         println("Provision: ${objektListe[index].provision} ")
 

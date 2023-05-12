@@ -29,4 +29,12 @@ open class Immo(
     var objektTitel: String = "",
     var objektText: String = "",
 ) {
+    fun preisProQm(gesamtFlaeche: Double, preisNetto: Double): Double {
+
+        var flaeche = gesamtFlaeche
+        var preis = preisNetto
+        var quadratmeterPreis = preis / flaeche
+
+        return (quadratmeterPreis)
+    }
 }
