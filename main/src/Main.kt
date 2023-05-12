@@ -2,6 +2,7 @@ package klassen.utils.database
 import database.anlegenInteressent
 import database.anlegenMakler
 import database.einlesenObjekte
+import database.registrieren
 import klassen.Interessenten
 import klassen.utils.database.utils.*
 import utils.ausgabeKonsoleMakler
@@ -33,7 +34,7 @@ fun main() {
         if(auswahl == 1)
             wahr = login(interessentenListe)
         else if (auswahl == 2) {
-            // interessentenListe = registrieren(interessentenListe)
+            interessentenListe = registrieren(interessentenListe)
             wahr = false
         }
     }
