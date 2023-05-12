@@ -2,7 +2,6 @@ package klassen.utils.database.utils
 
 import klassen.Immo
 
-
 fun anzeigenAllerObjekte(min: Int, max: Int, objektListe: List<Immo>) {
 
         for (i in min..max) {
