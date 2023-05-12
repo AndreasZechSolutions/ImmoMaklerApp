@@ -1,9 +1,11 @@
 package database
-import klassen.*
+import klassen.Anrede
+import klassen.Interessenten
+import klassen.KontoTyp
 
 fun anlegenInteressent(index: Int): MutableList<Interessenten> {
 
-    val listeInteressenten = mutableListOf<Interessenten>()
+    var listeInteressenten = mutableListOf<Interessenten>()
 
     listeInteressenten.add(index, Interessenten(
         index,
