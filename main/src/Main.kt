@@ -46,8 +46,8 @@ fun main() {
             3 -> anzeigenObjekteWhg(0, objektListe.count(), objektListe)
             4 -> anzeigenObjekteGarage(0, objektListe.count(), objektListe)
             5 -> anzeigenObjekteGrund(0, objektListe.count(), objektListe)
-            6 -> wahr = false
-            7 -> ausgabeKonsoleMakler(maklerIndex, maklerListe)
+            6 -> ausgabeKonsoleMakler(maklerIndex, maklerListe)
+            7 -> wahr = false
         }
     }
 }

@@ -10,7 +10,7 @@ fun ausgabeKonsoleMenu() {
             "3. Suche: nach Wohnungen\n" +
             "4. Suche: nach Garagen\n" +
             "5. Suche: nach Grundstücken\n" +
-            "6. Programm beenden\n" +
-            "7. Impressum\n"
+            "6. Impressum\n" +
+            "7. Programm beenden\n"
     )
 }
