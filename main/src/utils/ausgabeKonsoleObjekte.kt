@@ -110,8 +110,10 @@ fun ausgabeKonsoleObjekte(index: Int, objektListe: List<Immo>)  {
             println("Bad: ${hausObjekt.nettoMieteSollJahr} ${objektListe[index].geldTyp}")
     }
 
-    if (objektListe[index].objektTyp == "Wohnung") {
-        val whgObjekt: Whg = objektListe[index] as Whg
+    if (index <= objektListe.size-1) {
+        if (objektListe[index].objektTyp == "Wohnung") {
+            val whgObjekt: Whg = objektListe[index] as Whg
+
 
         if (whgObjekt.renovierung != "")
             println("Renovierung: ${whgObjekt.renovierung} ")
