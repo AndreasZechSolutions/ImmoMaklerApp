@@ -44,7 +44,7 @@ fun main() {
             1 -> anzeigenAllerObjekte(0,objektListe.size, objektListe)
             2 -> anzeigenObjekteHaus(0, objektListe.size, objektListe)
             3 -> anzeigenObjekteWhg(0, objektListe.size, objektListe)
-            4 -> anzeigenObjekteGarge(0, objektListe.size, objektListe)
+            4 -> anzeigenObjekteGarage(0, objektListe.size, objektListe)
             5 -> anzeigenObjekteGrund(0, objektListe.size, objektListe)
             6 -> wahr = false
             7 -> ausgabeKonsoleMakler(maklerIndex, maklerListe)
