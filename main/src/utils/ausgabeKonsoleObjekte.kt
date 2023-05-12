@@ -112,7 +112,11 @@ fun ausgabeKonsoleObjekte(index: Int, objektListe: List<Immo>)  {
 
     if (index <= objektListe.size-1) {
         if (objektListe[index].objektTyp == "Wohnung") {
-            val whgObjekt: Whg = objektListe[index] as Whg
+            try {
+                val whgObjekt: Whg = objektListe[index] as Whg
+            } catch (ex: Exception){
+                Yeahhh :-)
+            }
 
 
             if (whgObjekt.renovierung != "")
