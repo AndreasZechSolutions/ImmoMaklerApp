@@ -6,15 +6,15 @@ import klassen.utils.database.utils.anzeigenAllerObjekte
 import utils.*
 
 // Globale Variablen
-var maklerIndex = 0
-var maklerListe = anlegenMakler(maklerIndex)
-var objektIndex = 0
-var objektListe = einlesenObjekte()
-var wahr = true
 const val qm = "m²"
 const val mwSt = "MwSt."
 
 fun main() {
+    var maklerIndex = 0
+    var maklerListe = anlegenMakler(maklerIndex)
+    var objektIndex = 0
+    var objektListe = einlesenObjekte()
+    var wahr = true
 
     eingabeLoginRegistrierung()
 

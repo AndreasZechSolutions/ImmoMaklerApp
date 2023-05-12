@@ -5,8 +5,9 @@ fun eingabeKonsole(): Int{
     var zahl: Int? = null
 
     while(zahl == null){
-        ausgabeKonsoleMenu()
+       ausgabeKonsoleMenu()
        print("Wähle ein Zahl: ")
+
         try {
             zahl = readln().toInt()
         } catch (ex: Exception){
