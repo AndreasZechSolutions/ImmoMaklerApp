@@ -108,55 +108,51 @@ fun ausgabeKonsoleObjekte(index: Int, objektListe: List<Immo>)  {
         if (hausObjekt.nettoMieteSollJahr != 0.00)
             println("Bad: ${hausObjekt.nettoMieteSollJahr} ${objektListe[index].geldTyp}")
     }
-
+    /*
     if (index <= objektListe.size-1) {
-        if (objektListe[index].objektTyp == "Wohnung") {
-            try {
 
-                val whgObjekt: Whg = objektListe[index] as Whg
+        if (objektListe[index].objektTyp == "Wohnung")
+            val whgObjekt: Whg = objektListe[index] as Whg
 
+            if (whgObjekt.renovierung != "")
+                println("Renovierung: ${whgObjekt.renovierung} ")
 
-                if (whgObjekt.renovierung != "")
-                    println("Renovierung: ${whgObjekt.renovierung} ")
+            if (whgObjekt.zimmer != "")
+                println("Zimmer: ${whgObjekt.zimmer} ")
 
-                if (whgObjekt.zimmer != "")
-                    println("Zimmer: ${whgObjekt.zimmer} ")
+            if (whgObjekt.raumHoehe != "")
+                println("Raumhöhe: ${whgObjekt.raumHoehe} ")
 
-                if (whgObjekt.raumHoehe != "")
-                    println("Raumhöhe: ${whgObjekt.raumHoehe} ")
+            if (whgObjekt.lageImHaus != "")
+                println("Raumhöhe: ${whgObjekt.lageImHaus} ")
 
-                if (whgObjekt.lageImHaus != "")
-                    println("Raumhöhe: ${whgObjekt.lageImHaus} ")
+            if (whgObjekt.bad != "")
+                println("Bad: ${whgObjekt.bad} ")
 
-                if (whgObjekt.bad != "")
-                    println("Bad: ${whgObjekt.bad} ")
+            if (whgObjekt.heizungsArt != "")
+                println("Heizungsart: ${whgObjekt.heizungsArt} ")
 
-                if (whgObjekt.heizungsArt != "")
-                    println("Heizungsart: ${whgObjekt.heizungsArt} ")
+            if (whgObjekt.garten != "")
+                println("Garten: ${whgObjekt.garten} ")
 
-                if (whgObjekt.garten != "")
-                    println("Garten: ${whgObjekt.garten} ")
+            if (whgObjekt.wohnGeld != "")
+                println("Wohngeld: ${whgObjekt.wohnGeld} ${objektListe[index].geldTyp}")
 
-                if (whgObjekt.wohnGeld != "")
-                    println("Wohngeld: ${whgObjekt.wohnGeld} ${objektListe[index].geldTyp}")
+            if (whgObjekt.wohnflaeche != "")
+                println("Wohnfläche: ${whgObjekt.wohnflaeche} $qm")
 
-                if (whgObjekt.wohnflaeche != "")
-                    println("Wohnfläche: ${whgObjekt.wohnflaeche} $qm")
+            if (whgObjekt.nutzFlaeche != "")
+                println("Nutzfläche: ${whgObjekt.nutzFlaeche} $qm")
 
-                if (whgObjekt.nutzFlaeche != "")
-                    println("Nutzfläche: ${whgObjekt.nutzFlaeche} $qm")
+            if (whgObjekt.miete != 0.0)
+                println("Miete: ${whgObjekt.miete} ${objektListe[index].geldTyp}")
 
-                if (whgObjekt.miete != 0.0)
-                    println("Miete: ${whgObjekt.miete} ${objektListe[index].geldTyp}")
+            if (whgObjekt.nebenKosten != 0.0)
+                println("Nebenkosten: ${whgObjekt.nebenKosten} ${objektListe[index].geldTyp}")
 
-                if (whgObjekt.nebenKosten != 0.0)
-                    println("Nebenkosten: ${whgObjekt.nebenKosten} ${objektListe[index].geldTyp}")
-
-                if (whgObjekt.stellplatzPreis != 0.0)
-                    println("Stellplatzpreis: ${whgObjekt.stellplatzPreis} ${objektListe[index].geldTyp}")
-            } catch (e: Exception) {
-
-            }
+            if (whgObjekt.stellplatzPreis != 0.0)
+                println("Stellplatzpreis: ${whgObjekt.stellplatzPreis} ${objektListe[index].geldTyp}")
         }
-    }
+    }*/
 }
+
